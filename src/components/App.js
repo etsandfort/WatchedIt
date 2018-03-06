@@ -7,10 +7,14 @@ class App extends Component {
   render() {
     return (
       <body className="App">
-        <div className="App-Sidebar">
-          <Sidebar/>
-          <MyList />
-        </div> 
+          <div className="row justify-content-start">
+            <div className="App-Sidebar">
+              <Sidebar/>
+            </div>
+            <div className="App-MyList col-sm-8">
+              <MyList />
+            </div>
+          </div>
       </body>
     );
   }

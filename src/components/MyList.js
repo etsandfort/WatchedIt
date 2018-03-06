@@ -17,7 +17,7 @@ class MyList extends Component {
           </button>
         </div>
         <div className="row">
-          <table class="table">
+          <table class="table table-dark">
             <thead>
               <tr>
                 <th>#</th>
