@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from '../Watchitt.png';
+import logo from '../logo.png';
 import './includes/Sidebar.css';
 
 class Sidebar extends Component {
@@ -8,7 +8,6 @@ class Sidebar extends Component {
       <div className="Sidebar">
         <header className="Sidebar-header">
           <img src={logo} className="Sidebar-logo" alt="logo" />
-          <div className="Sidebar-title">WatchedIt</div>
         </header>
         <div className="Sidebar-buttons">
           <div>
