@@ -12,13 +12,13 @@ class Sidebar extends Component {
         </header>
         <div className="Sidebar-buttons">
           <div>
-			<p>My List</p>
-				<div className="Sidebar-sub-buttons">
-					<p>TV Shows</p>
-					<p>Movies</p>
-				</div>
-		  </div>
-		  <div><p>Discover</p></div>
+            <p>My List</p>
+              <div className="Sidebar-sub-buttons">
+                <p>TV Shows</p>
+                <p>Movies</p>
+              </div>
+		      </div>
+		      <div><p>Discover</p></div>
         </div>
       </div>
     );

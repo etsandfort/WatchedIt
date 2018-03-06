@@ -1,15 +1,20 @@
 import React, { Component } from 'react';
-import logo from '../logo.svg';
 import Sidebar from './Sidebar.js';
 import './includes/App.css';
+import MyList from './MyList.js';
 
 class App extends Component {
   render() {
     return (
       <body className="App">
-		<div className="App-Sidebar">
-			<Sidebar/>
-		</div>
+          <div className="row justify-content-start">
+            <div className="App-Sidebar">
+              <Sidebar/>
+            </div>
+            <div className="App-MyList col-sm-8">
+              <MyList />
+            </div>
+          </div>
       </body>
     );
   }
