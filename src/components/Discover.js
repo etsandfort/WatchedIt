@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from '../logo.svg';
 import './includes/App.css';
 
 class Discover extends Component {
