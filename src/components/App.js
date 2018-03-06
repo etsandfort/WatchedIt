@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import List from './List'
+import Sidebar from './Sidebar'
 import logo from '../images/logo.svg';
 import './includes/App.css';
 
@@ -18,18 +19,20 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
         </header>
-        <p className="App-intro">
-          {this.props.text}
-        </p>
-        <List/>
+        <div className="row">
+        <div className="col-xs-3">
+          <Sidebar/>
+        </div>
+        <div className="col-xs-9">
+          <List/>
+        </div>
+        </div>
       </div>
+
     );
   }
 
 
 }
 
-App.defaultProps = {
-  text: 'woohoo',
-}
 export default App;

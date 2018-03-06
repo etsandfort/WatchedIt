@@ -5,9 +5,13 @@ class ListFilter extends Component {
     render(){
         return(
             <div>
-                <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name"/>
+                <input type="text" id="myInput" onKeyUp={this.search} placeholder="Search for names.." title="Type in a name"/>
             </div>
         );
+    }
+    
+    search(){
+        
     }
 }
 
