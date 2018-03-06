@@ -1,8 +1,16 @@
 import React, { Component } from 'react';
-import logo from '../logo.svg';
+import List from './List'
+import logo from '../images/logo.svg';
 import './includes/App.css';
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      currentPage: null,
+    };
+  }
+
   render() {
     return (
       <div className="App">
@@ -11,11 +19,17 @@ class App extends Component {
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <p className="App-intro">
-          Hello World
+          {this.props.text}
         </p>
+        <List/>
       </div>
     );
   }
+
+
 }
 
+App.defaultProps = {
+  text: 'woohoo',
+}
 export default App;
