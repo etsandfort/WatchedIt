@@ -1,0 +1,36 @@
+.Sidebar {
+  text-align: center;
+  color: white;
+  width: 200px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #222;
+  height: 100vh;
+}
+
+.Sidebar-logo {
+  height: 100%;
+  padding: 0px;
+}
+
+.Sidebar-header {
+  background-color: #111;
+  height: 150px;
+  color: white;
+}
+
+.Sidebar-title {
+  font-size: 1.5em;
+}
+
+.Sidebar-buttons {
+  font-size: 30px;
+  text-align: left;
+  padding-left: 10%;
+}
+
+.Sidebar-sub-buttons {
+	font-size: 20px;
+	padding-left: 15%;
+}
