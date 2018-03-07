@@ -2,23 +2,36 @@ import React, { Component } from 'react';
 import Sidebar from './Sidebar.js';
 import AppContainer from './AppContainer.js';
 import './includes/App.css';
-import MyList from './MyList.js';
 
 class App extends Component {
+	constructor(props){
+		super(props);
+		this.handler = this.handler.bind(this);
+		this.state = {
+            currentPage: ""
+        }
+	}
+
+	handler(state) {
+		this.setState(state);
+	}
+
     render() {
         return (
-          <body className="App">
-            <div className="row">
+            <div className="row App">
                 <div className="col-xs-3">
-                    <Sidebar/>
+                    <Sidebar handler = {this.handler.bind(this)}/>
                 </div>
                 <div className="col-xs-9">
-                    <AppContainer/>
+                    <AppContainer currentPage={this.state.currentPage}/>
                 </div>
             </div>
-          </body>
         );
     }
+}
+
+App.defaultProps = {
+	currentPage : "discover"
 }
 
 export default App;
