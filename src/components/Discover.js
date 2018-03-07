@@ -35,7 +35,7 @@ class Discover extends Component {
             <td><button class="btn btn-primary btn-lg btn-block"><img src="https://cdn.frankerfacez.com/emoticon/132023/4"/></button></td>
           </tr>
         </table>
-        <h2 style={{paddingLeft: 15}} align="left">HBO</h2>
+          <h2 style={{paddingLeft: 15}} align="left">HBO</h2>
         <table className="table">
           <tr>
             <td><button class="btn btn-primary btn-lg btn-block"><img src="https://i.imgur.com/AampuvT.png"/></button></td>
