@@ -2,11 +2,6 @@ import React, { Component } from 'react';
 import Sidebar from './Sidebar.js';
 import AppContainer from './AppContainer.js';
 import './includes/App.css';
-<<<<<<< HEAD
-import MyList from './MyList.js';
-import Discover from './Discover.js'
-=======
->>>>>>> master
 
 class App extends Component {
 	constructor(props){
@@ -28,11 +23,7 @@ class App extends Component {
                     <Sidebar handler = {this.handler.bind(this)}/>
                 </div>
                 <div className="col-xs-9">
-<<<<<<< HEAD
-                    <Discover/>
-=======
                     <AppContainer currentPage={this.state.currentPage}/>
->>>>>>> master
                 </div>
             </div>
         );
