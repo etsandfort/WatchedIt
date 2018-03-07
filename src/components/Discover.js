@@ -34,12 +34,13 @@ class Discover extends Component {
         </table>
         <table className="table">
           <tr>
-            <td><button class="btn btn-primary btn-lg btn-block">TITLE</button></td>
-            <td><button class="btn btn-primary btn-lg btn-block">TITLE</button></td>
-            <td><button class="btn btn-primary btn-lg btn-block">TITLE</button></td>
-            <td><button class="btn btn-primary btn-lg btn-block">TITLE</button></td>
-            <td><button class="btn btn-primary btn-lg btn-block">TITLE</button></td>
-            <td><button class="btn btn-primary btn-lg btn-block">TITLE</button></td>
+            <td><button class="btn btn-primary btn-lg btn-block"><img src="https://cdn.frankerfacez.com/emoticon/132023/4"/></button></td>
+            <td><button class="btn btn-primary btn-lg btn-block"><img src="https://cdn.frankerfacez.com/emoticon/132023/4"/></button></td>
+            <td><button class="btn btn-primary btn-lg btn-block"><img src="https://cdn.frankerfacez.com/emoticon/132023/4"/></button></td>
+            <td><button class="btn btn-primary btn-lg btn-block"><img src="https://cdn.frankerfacez.com/emoticon/132023/4"/></button></td>
+            <td><button class="btn btn-primary btn-lg btn-block"><img src="https://cdn.frankerfacez.com/emoticon/132023/4"/></button></td>
+            <td><button class="btn btn-primary btn-lg btn-block"><img src="https://cdn.frankerfacez.com/emoticon/132023/4"/></button></td>
+            <td><button class="btn btn-primary btn-lg btn-block"><img src="https://cdn.frankerfacez.com/emoticon/132023/4"/></button></td>
           </tr>
         </table>
         <table className="table">
@@ -49,12 +50,12 @@ class Discover extends Component {
         </table>
         <table className="table">
           <tr>
-            <td><button class="btn btn-primary btn-lg btn-block">TITLE</button></td>
-            <td><button class="btn btn-primary btn-lg btn-block">TITLE</button></td>
-            <td><button class="btn btn-primary btn-lg btn-block">TITLE</button></td>
-            <td><button class="btn btn-primary btn-lg btn-block">TITLE</button></td>
-            <td><button class="btn btn-primary btn-lg btn-block">TITLE</button></td>
-            <td><button class="btn btn-primary btn-lg btn-block">TITLE</button></td>
+            <td><button class="btn btn-primary btn-lg btn-block"><img src="https://i.imgur.com/AampuvT.png"/></button></td>
+            <td><button class="btn btn-primary btn-lg btn-block"><img src="https://i.imgur.com/AampuvT.png"/></button></td>
+            <td><button class="btn btn-primary btn-lg btn-block"><img src="https://i.imgur.com/AampuvT.png"/></button></td>
+            <td><button class="btn btn-primary btn-lg btn-block"><img src="https://i.imgur.com/AampuvT.png"/></button></td>
+            <td><button class="btn btn-primary btn-lg btn-block"><img src="https://i.imgur.com/AampuvT.png"/></button></td>
+            <td><button class="btn btn-primary btn-lg btn-block"><img src="https://i.imgur.com/AampuvT.png"/></button></td>
           </tr>
         </table>
       </div>
