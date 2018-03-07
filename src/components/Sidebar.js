@@ -11,13 +11,13 @@ class Sidebar extends Component {
         </header>
         <div className="Sidebar-buttons">
           <div>
-            <p>My List</p>
+            <p onClick={this.props.handler.bind(this, {currentPage: "myList"})}>My List</p>
               <div className="Sidebar-sub-buttons">
                 <p>TV Shows</p>
                 <p>Movies</p>
               </div>
 		      </div>
-		      <div><p>Discover</p></div>
+		      <div><p onClick={this.props.handler.bind(this, {currentPage: "discover"})}>Discover</p></div>
         </div>
       </div>
     );
