@@ -10,8 +10,8 @@
 }
 
 .Sidebar-logo {
-  height: 80px;
-  padding: 10px;
+  height: 100%;
+  padding: 0px;
 }
 
 .Sidebar-header {

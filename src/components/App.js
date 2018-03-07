@@ -1,23 +1,24 @@
 import React, { Component } from 'react';
 import Sidebar from './Sidebar.js';
+import AppContainer from './AppContainer.js';
 import './includes/App.css';
 import MyList from './MyList.js';
 
 class App extends Component {
-  render() {
-    return (
-      <body className="App">
-          <div className="row justify-content-start">
-            <div className="App-Sidebar">
-              <Sidebar/>
+    render() {
+        return (
+          <body className="App">
+            <div className="row">
+                <div className="col-xs-3">
+                    <Sidebar/>
+                </div>
+                <div className="col-xs-9">
+                    <AppContainer/>
+                </div>
             </div>
-            <div className="App-MyList col-sm-8">
-              <MyList />
-            </div>
-          </div>
-      </body>
-    );
-  }
+          </body>
+        );
+    }
 }
 
 export default App;
