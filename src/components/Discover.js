@@ -12,11 +12,7 @@ class Discover extends Component {
             <td><button className="btn btn-link">Genres</button></td>
           </tr>
         </table>
-        <table className="table">
-          <tr>
-            <td><button className="btn btn-link">Netflix</button></td>
-          </tr>
-        </table>
+          <h2 style={{paddingLeft: 15}} align="left">Netflix</h2>
         <table className="table">
           <tr>
             <td><button class="btn btn-primary btn-lg btn-block"><img src="http://www.coloriagesdecoupages.com/avatar/cinemas/avatar-Star-Wars-Logo.jpg"/></button></td>
@@ -27,11 +23,7 @@ class Discover extends Component {
             <td><button class="btn btn-primary btn-lg btn-block"><img src="http://i3.kym-cdn.com/entries/icons/original/000/022/713/4.png"/></button></td>
           </tr>
         </table>
-        <table className="table">
-          <tr>
-            <td><button className="btn btn-link">Amazon</button></td>
-          </tr>
-        </table>
+          <h2 style={{paddingLeft: 15}} align="left">Amazon</h2>
         <table className="table">
           <tr>
             <td><button class="btn btn-primary btn-lg btn-block"><img src="https://cdn.frankerfacez.com/emoticon/132023/4"/></button></td>
@@ -43,11 +35,7 @@ class Discover extends Component {
             <td><button class="btn btn-primary btn-lg btn-block"><img src="https://cdn.frankerfacez.com/emoticon/132023/4"/></button></td>
           </tr>
         </table>
-        <table className="table">
-          <tr>
-            <td><button className="btn btn-link">HBO</button></td>
-          </tr>
-        </table>
+        <h2 style={{paddingLeft: 15}} align="left">HBO</h2>
         <table className="table">
           <tr>
             <td><button class="btn btn-primary btn-lg btn-block"><img src="https://i.imgur.com/AampuvT.png"/></button></td>
