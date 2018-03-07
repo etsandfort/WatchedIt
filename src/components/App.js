@@ -3,6 +3,7 @@ import Sidebar from './Sidebar.js';
 import AppContainer from './AppContainer.js';
 import './includes/App.css';
 import MyList from './MyList.js';
+import Discover from './Discover.js'
 
 class App extends Component {
     render() {
@@ -13,7 +14,7 @@ class App extends Component {
                     <Sidebar/>
                 </div>
                 <div className="col-xs-9">
-                    <AppContainer/>
+                    <Discover/>
                 </div>
             </div>
           </body>

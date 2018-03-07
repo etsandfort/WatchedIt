@@ -19,7 +19,7 @@ class Discover extends Component {
         </table>
         <table className="table">
           <tr>
-            <td><button class="btn btn-primary btn-lg btn-block"><img src="http://i3.kym-cdn.com/entries/icons/original/000/022/713/4.png"/></button></td>
+            <td><button class="btn btn-primary btn-lg btn-block"><img src="http://www.coloriagesdecoupages.com/avatar/cinemas/avatar-Star-Wars-Logo.jpg"/></button></td>
             <td><button class="btn btn-primary btn-lg btn-block"><img src="http://i3.kym-cdn.com/entries/icons/original/000/022/713/4.png"/></button></td>
             <td><button class="btn btn-primary btn-lg btn-block"><img src="http://i3.kym-cdn.com/entries/icons/original/000/022/713/4.png"/></button></td>
             <td><button class="btn btn-primary btn-lg btn-block"><img src="http://i3.kym-cdn.com/entries/icons/original/000/022/713/4.png"/></button></td>
