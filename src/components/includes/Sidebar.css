@@ -34,3 +34,10 @@
 	font-size: 20px;
 	padding-left: 15%;
 }
+
+.Sidebar-hover {
+	padding : 0px;
+}
+.Sidebar-hover:hover * {
+    background-color: #444;
+}
