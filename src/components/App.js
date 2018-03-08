@@ -1,32 +1,37 @@
 import React, { Component } from 'react';
-import Sidebar from './Sidebar'
-import logo from '../images/logo.svg';
+import Sidebar from './Sidebar.js';
+import AppContainer from './AppContainer.js';
 import './includes/App.css';
-import MyList from './MyList.js';
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      currentPage: null,
-    };
-  }
+	constructor(props){
+		super(props);
+		this.handler = this.handler.bind(this);
+		this.state = {
+            currentPage: ""
+        }
+	}
 
-  render() {
-    
-    return (
-          <div className="row justify-content-start App">
-            <div className="App-Sidebar">
-              <Sidebar/>
+	handler(state) {
+		this.setState(state);
+	}
+
+    render() {
+        return (
+            <div className="row App">
+                <div className="col-xs-3">
+                    <Sidebar handler = {this.handler.bind(this)}/>
+                </div>
+                <div className="col-xs-9">
+                    <AppContainer currentPage={this.state.currentPage}/>
+                </div>
             </div>
-            <div className="App-MyList col-sm-8">
-              <MyList />
-            </div>
-          </div>
-    );
-  }
+        );
+    }
+}
 
-
+App.defaultProps = {
+	currentPage : "discover"
 }
 
 export default App;
