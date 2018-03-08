@@ -87,8 +87,7 @@ class MyList extends Component {
           data={data}
           columns={columns} 
           minRows={1}
-          showPagination={false}
-          filterable={true} />
+          showPagination={false} />
       </div>
     );
   }
