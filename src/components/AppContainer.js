@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import MyList from './MyList';
 
 class AppContainer extends Component {
     constructor(props) {
@@ -11,7 +12,7 @@ class AppContainer extends Component {
     render() {
         return (
             <div className="AppContainer">
-                <p>{this.props.text}</p>
+                <MyList />
             </div>
         );
     }

@@ -2,12 +2,11 @@ import React, { Component } from 'react';
 import Sidebar from './Sidebar.js';
 import AppContainer from './AppContainer.js';
 import './includes/App.css';
-import MyList from './MyList.js';
 
 class App extends Component {
     render() {
         return (
-          <body className="App">
+          <div className="App container-fluid">
             <div className="row">
                 <div className="col-xs-3">
                     <Sidebar/>
@@ -16,7 +15,7 @@ class App extends Component {
                     <AppContainer/>
                 </div>
             </div>
-          </body>
+          </div>
         );
     }
 }

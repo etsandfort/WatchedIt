@@ -1,49 +1,66 @@
 import React, { Component } from 'react';
-import './includes/App.css';
-import ReactTable from 'react-table'
+import './includes/MyList.css';
+import ReactTable from 'react-table';
 
 class MyList extends Component {
   render() {
     const data = [{
-      name: 'Bob Ross',
-      age: 46,
-      friend: {
-        name: 'Kappa Ross',
-        age: 13,
-      }
+      number: 1,
+      image: "/images/jojo.jpg",
+      title: "Star Wars Episode 3: Revenge of the Sith",
+      myScore: 9.2,
+      globalScore: 6.9,
+      friendScore: 9.5,
+      type: "Movie",
+      genres: ["Sci-Fi", "Fantasy"]
     },
     {
-      name: 'Dans Gaming',
-      age: 26,
-      friend: {
-        name: 'Pog Champ',
-        age: 23,
-      }
+      number: 2,
+      image: "jojo.jpg",
+      title: "Yu-Gi-Oh! The Dark Side of Dimensions",
+      myScore: 10,
+      globalScore: 10,
+      friendScore: 10,
+      type: "Movie",
+      genres: ["Lit", "Children's Card Games"]
     },
     {
-      name: 'Jotaro Joestar',
-      age: 16,
-      friend: {
-        name: 'Star Platinum',
-        age: 20,
-      }
+      number: 3,
+      image: "jojo.jpg",
+      title: "JoJo's Bizarre Adventure",
+      myScore: 10,
+      globalScore: 9.5,
+      friendScore: 9.8,
+      type: "TV",
+      genres: ["Baby Stand", "Nani"]
     }];
   
     const columns = [{
-      Header: 'Name',
-      accessor: 'name' // String-based value accessors!
+      Header: '#',
+      accessor: 'number'
     }, {
-      Header: 'Age',
-      accessor: 'age',
-      Cell: props => <span className='number'>{props.value}</span> // Custom cell components!
+      Header: 'Image',
+      accessor: 'image',
+      Cell: props => <img src={props.value} alt="Title Card"/>
     }, {
-      id: 'friendName', // Required because our accessor is not a string
-      Header: 'Friend Name',
-      accessor: d => d.friend.name // Custom value accessors!
+      Header: 'Title',
+      accessor: 'title'
     }, {
-      Header: props => <span>Friend Age</span>, // Custom header components!
-      accessor: 'friend.age'
-    }]
+      Header: 'My Score',
+      accessor: 'myScore'
+    }, {
+      Header: 'Global Score',
+      accessor: 'globalScore' 
+    }, {
+      Header: 'Friend\'s Score',
+      accessor: 'friendScore' 
+    }, {
+      Header: 'Type',
+      accessor: 'type' 
+    }, {
+      Header: 'Genres',
+      accessor: 'genres' 
+    }];
     return (
       <div className="MyList container">
       <header className="row">
@@ -66,8 +83,12 @@ class MyList extends Component {
           </div>
         </div>
         <ReactTable
+          className="-striped -highlight"
           data={data}
-          columns={columns} />
+          columns={columns} 
+          minRows={1}
+          showPagination={false}
+          filterable={true} />
       </div>
     );
   }
