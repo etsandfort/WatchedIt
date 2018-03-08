@@ -4,20 +4,36 @@ import AppContainer from './AppContainer.js';
 import './includes/App.css';
 
 class App extends Component {
+	constructor(props){
+		super(props);
+		this.handler = this.handler.bind(this);
+		this.state = {
+            currentPage: ""
+        }
+	}
+
+	handler(state) {
+		this.setState(state);
+	}
+
     render() {
         return (
           <div className="App container-fluid">
             <div className="row">
                 <div className="col-xs-3">
-                    <Sidebar/>
+                    <Sidebar handler = {this.handler.bind(this)}/>
                 </div>
                 <div className="col-xs-9">
-                    <AppContainer/>
+                    <AppContainer currentPage={this.state.currentPage}/>
                 </div>
             </div>
           </div>
         );
     }
+}
+
+App.defaultProps = {
+	currentPage : "discover"
 }
 
 export default App;
