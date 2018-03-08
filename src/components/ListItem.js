@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import titleCard from '../images/mrmime.jpg';
+import './includes/App.css';
 class ListItem extends Component{
     constructor(props){
         super(props);
@@ -12,26 +13,33 @@ class ListItem extends Component{
         let buttonText = this.state.added ? 'Remove': 'Add';
         return (
             <tr>
-                <td>
-                <img src={titleCard} className="title card" alt="logo" />
+                <td className='col-xs-1'>
+                    {this.props.id}
                 </td>
-                <td>
+                <td className='col-xs-2'>
+                    <img src={titleCard} className="title card" alt="logo" />
+                </td>
+                <td className='col-xs-2'>
                     {this.props.title}
                 </td>
-                <td>
+                <td className='col-xs-1'>
                     {this.props.myScore}
                 </td>
-                <td>
+                <td className='col-xs-1'>
                     {this.props.globalScore}
                 </td>
-                <td>
+                <td className='col-xs-1'>
                     {this.props.friendScore}
                 </td>
-                <td>
+                <td className='col-xs-2'>
                     {this.props.type}
                 </td>
-                <td>
-                    <button type="button" onClick={this.addToList.bind(this)}>{buttonText}</button>
+                <td className='col-xs-2'>
+                    <button type="button" 
+                    onClick={this.addToList.bind(this)} 
+                    className="btn btn-primary">
+                        {buttonText}
+                    </button>
                 </td>
             </tr>
         );
@@ -44,6 +52,7 @@ class ListItem extends Component{
 
 ListItem.defaultProps = {
     key: null,
+    id: null,
     title: 'Default Title',
     myScore: 0,
     globalScore: 0,
