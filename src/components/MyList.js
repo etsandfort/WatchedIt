@@ -6,7 +6,7 @@ class MyList extends Component {
   render() {
     const data = [{
       number: 1,
-      image: "/images/jojo.jpg",
+      image: "images/highground.jpg",
       title: "Star Wars Episode 3: Revenge of the Sith",
       myScore: 9.2,
       globalScore: 6.9,
@@ -16,7 +16,7 @@ class MyList extends Component {
     },
     {
       number: 2,
-      image: "jojo.jpg",
+      image: "images/duel.jpg",
       title: "Yu-Gi-Oh! The Dark Side of Dimensions",
       myScore: 10,
       globalScore: 10,
@@ -26,7 +26,7 @@ class MyList extends Component {
     },
     {
       number: 3,
-      image: "jojo.jpg",
+      image: "images/jojo.jpg",
       title: "JoJo's Bizarre Adventure",
       myScore: 10,
       globalScore: 9.5,
@@ -41,7 +41,7 @@ class MyList extends Component {
     }, {
       Header: 'Image',
       accessor: 'image',
-      Cell: props => <img src={props.value} alt="Title Card"/>
+      Cell: row => <img src={row.value} alt="Title Card" width="100px" height="100px" />
     }, {
       Header: 'Title',
       accessor: 'title'
@@ -83,7 +83,7 @@ class MyList extends Component {
           </div>
         </div>
         <ReactTable
-          className="-striped -highlight"
+          className="-highlight"
           data={data}
           columns={columns} 
           minRows={1}
