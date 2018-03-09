@@ -18,7 +18,8 @@ class App extends Component {
 
     render() {
         return (
-            <div className="row App">
+          <div className="App container-fluid">
+            <div className="row">
                 <div className="col-xs-3">
                     <Sidebar handler = {this.handler.bind(this)}/>
                 </div>
@@ -26,12 +27,13 @@ class App extends Component {
                     <AppContainer currentPage={this.state.currentPage}/>
                 </div>
             </div>
+          </div>
         );
     }
 }
 
 App.defaultProps = {
-	currentPage : "discover"
+	currentPage : "myList"
 }
 
 export default App;

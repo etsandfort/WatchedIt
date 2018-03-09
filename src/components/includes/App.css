@@ -29,18 +29,7 @@
   font-size: large;
 }
 
-tr {
-  width: 100%;
-  display: inline-table;
-}
-  
-table{
-  height:80vh;
-  width: 100%;
-}
-tbody{
-  overflow-y: scroll;
-  height: 70vh;
-  width: 97%;
-  position: absolute;
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
