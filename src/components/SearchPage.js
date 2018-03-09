@@ -5,38 +5,24 @@ import './includes/SearchPage.css';
 class SearchPage extends Component {
   render() {
     return (
-        <div className="flex-container">
-            <div className="searchPage-content">
-            <form>
-              <input type="text" name="search" placeholder="Search.."/>
-            </form>
-                <h2 style={{paddingLeft: 15}} align="left">Amazon</h2>
-                <table className="table">
-                    <tbody>
-                        <tr>
-                            <td><img src="https://cdn.frankerfacez.com/emoticon/132023/4"/></td>
-                            <td><img src="https://cdn.frankerfacez.com/emoticon/132023/4"/></td>
-                            <td><img src="https://cdn.frankerfacez.com/emoticon/132023/4"/></td>
-                            <td><img src="https://cdn.frankerfacez.com/emoticon/132023/4"/></td>
-                            <td><img src="https://cdn.frankerfacez.com/emoticon/132023/4"/></td>
-                            <td><img src="https://cdn.frankerfacez.com/emoticon/132023/4"/></td>
-                        </tr>
-                    </tbody>
-                </table>
-                <h2 style={{paddingLeft: 15}} align="left">HBO</h2>
-                <table className="table">
-                    <tbody>
-                        <tr>
-                            <td><button className="btn btn-primary btn-lg btn-block"><img src="https://i.imgur.com/AampuvT.png"/></button></td>
-                            <td><button className="btn btn-primary btn-lg btn-block"><img src="https://i.imgur.com/AampuvT.png"/></button></td>
-                            <td><button className="btn btn-primary btn-lg btn-block"><img src="https://i.imgur.com/AampuvT.png"/></button></td>
-                            <td><button className="btn btn-primary btn-lg btn-block"><img src="https://i.imgur.com/AampuvT.png"/></button></td>
-                            <td><button className="btn btn-primary btn-lg btn-block"><img src="https://i.imgur.com/AampuvT.png"/></button></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+      <div className="SearchPage">
+      <div className="flex-container">
+      <div className="searchPage-content">
+      <form>
+        <input type="text" name="search" placeholder="Search.."/>
+      </form>
+        <table className="table">
+          <tr>
+            <td><div className="Discover-Title-Card"><img src="https://images-na.ssl-images-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00NjZmLTg5NGItZDNiZjU5NTU4OTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SY1000_CR0,0,641,1000_AL_.jpg"/></div></td>
+            <td><h1>Star Wars Epsiode IV</h1></td>
+            <td><h1>6.9</h1></td>
+            <td><h1>Movie</h1></td>
+            <td><button className="btn btn-primary">Add to list</button></td>
+          </tr>
+        </table>
         </div>
+        </div>
+      </div>
     );
   }
 }
