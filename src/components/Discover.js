@@ -8,17 +8,13 @@ class Discover extends Component {
       <div className="Discover">
       <div className="flex-container">
       <div className="discover-content">
-	  <div className="Discover-Tab">
-        <table className="table">
-          <tr>
-            <td><div>Trending</div></td>
-            <td>New Releases</td>
-            <td>Genres</td>
-			<td>Search</td>
-          </tr>
-        </table>
-	  </div>
-          <h2 style={{paddingLeft: 15}} align="left">Netflix</h2>
+		<div className="Discover-Tab">
+            <div className="Discover-Tab-Option">Trending</div>
+            <div className="Discover-Tab-Option">New Releases</div>
+            <div className="Discover-Tab-Option">Genres</div>
+			<div className="Discover-Tab-Option">Search</div>
+		</div>
+          <h2 style={{paddingLeft: 15, padding: 10}} align="left">Netflix</h2>
         <table className="table">
           <tr>
             <td><div className="Discover-Title-Card"><img src="https://images-na.ssl-images-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00NjZmLTg5NGItZDNiZjU5NTU4OTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SY1000_CR0,0,641,1000_AL_.jpg"/></div></td>
