@@ -21,7 +21,7 @@ class App extends Component {
           <div className="App container-fluid">
             <div className="row">
                 <div className="col-xs-3">
-                    <Sidebar handler = {this.handler.bind(this)}/>
+                    <Sidebar handler = {this.handler.bind(this)}  currentPage={this.state.currentPage}/>
                 </div>
                 <div className="col-xs-9">
                     <AppContainer currentPage={this.state.currentPage}/>
