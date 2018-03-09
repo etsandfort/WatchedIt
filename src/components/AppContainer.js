@@ -3,6 +3,7 @@ import MyList from './MyList.js';
 import Discover from './Discover.js';
 import ShowInfo from './ShowInfo.js';
 import SearchPage from './SearchPage.js';
+import './includes/App.css';
 
 class AppContainer extends Component {
     constructor(props) {
