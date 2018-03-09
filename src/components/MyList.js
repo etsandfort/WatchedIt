@@ -59,27 +59,29 @@ class MyList extends Component {
       accessor: 'type' 
     }, {
       Header: 'Genres',
-      accessor: 'genres' 
+      accessor: 'genres',
+      Cell: row => (
+        <ul>
+          {row.value.map(function(name, index){
+            return <li key={ index }>{name}</li>;
+          })}
+        </ul>)
     }];
     return (
-      <div className="MyList container">
-      <header className="row">
+      <div className="MyList">
+        <header className="MyList-header">
           <h1 className="App-title">MyList</h1>
         </header>
         <div className="row">
           <div className="col-sm-4 control-group">
-            <div className="btn-toolbar">
             <button className="btn btn-primary">
               Add a Show/Movie
             </button>
-            </div>
           </div>
           <div className="col-sm-4 offset-sm-4">
-            <div className="btn-toolbar">
             <button className="btn btn-info">
               Advanced Search
             </button>
-            </div>
           </div>
         </div>
         <ReactTable
