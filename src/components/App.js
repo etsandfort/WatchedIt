@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Sidebar from './Sidebar.js';
 import AppContainer from './AppContainer.js';
-import ShowInfo from './ShowInfo.js';
 import './includes/App.css';
 
 class App extends Component {
@@ -21,10 +20,10 @@ class App extends Component {
         return (
 			<body className="App">
 				<div className="flex-container">
-					<div className="col-xs-3">
+					<div className="sidebar-flex">
 						<Sidebar handler = {this.handler.bind(this)}  currentPage={this.state.currentPage}/>
 					</div>
-					<div className="col-xs-9">
+					<div className="container-flex">
 						<AppContainer currentPage={this.state.currentPage}/>
 					</div>
 				</div>
