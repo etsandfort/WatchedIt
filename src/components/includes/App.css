@@ -5,6 +5,8 @@
   width: 100%;
   overflow: hidden;
   color: white;
+  width: 100vw;
+  overflow: hidden;
 }
 
 .App-logo {
