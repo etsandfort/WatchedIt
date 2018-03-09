@@ -11,9 +11,7 @@ class MyList extends Component {
       showFilter: false
     };
   }
-  render() {
-    let pageToDisplay;
-    
+  render() {    
     return (
       <div className="MyList container">
         <header className="row">
@@ -28,7 +26,7 @@ class MyList extends Component {
           </button>
         </div>
         <div>
-          {this.state.showFilter && <ListFilter />}
+          {this.state.showFilter && <ListFilter listItems={this.props.listItems} />}
         </div>
         <div className="row">
           <table className="table table-dark">
@@ -55,8 +53,10 @@ class MyList extends Component {
 
   makeList(){
     var list = [];
-    for(var i=0; i<10; i++){
+    let i = 0;
+    for(var item in this.props.listItems){
       list.push(<ListItem key={i} id={i+1} />);
+      i++;
     }
     return list;
   }
@@ -72,4 +72,10 @@ MyList.defaultState = {
   showFilter: false,
 }
 
+MyList.defaultProps = {
+  listItems: [<ListItem title="Star wars"/>, 
+  <ListItem title="men in black"/>,
+  <ListItem title="also star wars"/>
+],
+}
 export default MyList;

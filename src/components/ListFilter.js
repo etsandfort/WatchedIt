@@ -1,11 +1,18 @@
 import React, { Component } from 'react';
+import ListItem from './ListItem';
 
 class ListFilter extends Component {
 
+    constructor(props){
+        super(props);
+        this.state={
+            items: this.props.listItems,
+        }
+    }
     render(){
         return(
             <div>
-                <input type="text" id="myInput" onKeyUp={this.search} placeholder="Search for names.."/>
+                <input type="text" id="myInput" onKeyUp={(e) => this.filterList.bind(this,e)} placeholder="Search for names.."/>
                 <select className="form-control">
                     <option>Movie</option>
                     <option>TV Series</option>
@@ -27,9 +34,18 @@ class ListFilter extends Component {
         );
     }
     
-    search(){
-        
+    filterList(event){
+        var updatedList = this.props.listItems;
+        updatedList = updatedList.filter(function(item){
+          return item.props.title.toLowerCase().search(
+            event.target.value.toLowerCase()) !== -1;
+        });
+        this.setState({items: updatedList});
     }
+}
+
+ListFilter.defaultProps = {
+    listItems: [],
 }
 
 export default ListFilter
