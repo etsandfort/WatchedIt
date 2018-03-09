@@ -12,3 +12,12 @@
 	text-align: center;
 	background-color: #272727;
 }
+
+.flex-container {
+    display: flex;
+}
+
+.discover-content {
+    flex-grow: 0;
+    width: 100%;
+}

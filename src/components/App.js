@@ -4,36 +4,36 @@ import AppContainer from './AppContainer.js';
 import './includes/App.css';
 
 class App extends Component {
-	constructor(props){
-		super(props);
-		this.handler = this.handler.bind(this);
-		this.state = {
+    constructor(props){
+        super(props);
+        this.handler = this.handler.bind(this);
+        this.state = {
             currentPage: "discover"
         }
-	}
+    }
 
-	handler(state) {
-		this.setState(state);
-	}
+    handler(state) {
+        this.setState(state);
+    }
 
     render() {
         return (
-          <div className="App container-fluid">
-            <div className="row">
-                <div className="col-xs-3">
-                    <Sidebar handler = {this.handler.bind(this)}  currentPage={this.state.currentPage}/>
+            <body className="App">
+                <div className="flex-container">
+                    <div className="sidebar-flex">
+                        <Sidebar handler = {this.handler.bind(this)}  currentPage={this.state.currentPage}/>
+                    </div>
+                    <div className="container-flex">
+                        <AppContainer currentPage={this.state.currentPage}/>
+                    </div>
                 </div>
-                <div className="col-xs-9">
-                    <AppContainer currentPage={this.state.currentPage}/>
-                </div>
-            </div>
-          </div>
+            </body>
         );
     }
 }
 
 App.defaultProps = {
-	currentPage : "discover"
+    currentPage : "discover"
 }
 
 export default App;
