@@ -51,6 +51,11 @@ class MyList extends Component {
           })}
         </ul>)
     }];
+
+    let defaultFilterMethod = (filter, row, column) => {
+      const id = filter.pivotId || filter.id
+      return row[id] !== undefined ? String(row[id]).toLowerCase().startsWith(filter.value.toLowerCase()) : true
+    }
     
     return (
       <div className="MyList">
@@ -74,7 +79,8 @@ class MyList extends Component {
           data={data}
           columns={columns} 
           minRows={1}
-          showPagination={false} />
+          showPagination={false}
+          defaultFilterMethod={defaultFilterMethod}/>
       </div>
     );
   }
