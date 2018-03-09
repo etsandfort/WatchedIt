@@ -14,7 +14,6 @@ class AppContainer extends Component {
         this.state = {
         };
     }
-
     
     render() {
         console.log(shows);
