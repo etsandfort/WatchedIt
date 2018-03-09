@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
-import MyList from './MyList.js'
-import Discover from './Discover.js'
 import Database from './Database.js'
+import MyList from './MyList.js';
+import Discover from './Discover.js';
+import ShowInfo from './ShowInfo.js';
+import './includes/App.css';
 
 let db = new Database();
 const shows = db.shows;
@@ -20,6 +22,7 @@ class AppContainer extends Component {
             <div className="AppContainer">
                 {this.props.currentPage === "myList" && <MyList listItems={this.props.db.shows}/>}
                 {this.props.currentPage === "discover" && <Discover/>}
+                {this.props.currentPage === "showInfo" && <ShowInfo/>}
             </div>
         );
     }

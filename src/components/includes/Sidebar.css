@@ -1,13 +1,13 @@
 .Sidebar {
   text-align: center;
   color: white;
-  width: 200px;
+  width: 13%;
   height: 100%;
   margin: 0;
   padding: 0;
   background-color: #222;
   height: 100vh;
-  overflow: hidden;
+  position: fixed;
 }
 
 .Sidebar-logo {
@@ -19,6 +19,13 @@
   background-color: #111;
   height: 150px;
   color: white;
+}
+
+.Seperator {
+	background-color: #ddd;
+	height: 1px;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 .Sidebar-title {
@@ -43,4 +50,8 @@
 }
 .Sidebar-hover:hover * {
     background-color: #444;
+}
+
+.Sidebar-Active{
+	background-color: #444;
 }
