@@ -6,6 +6,7 @@ class Discover extends Component {
   render() {
     return (
       <div className="Discover">
+
       <div className="flex-container">
       <div className="discover-content">
 		<div className="Discover-Tab">
