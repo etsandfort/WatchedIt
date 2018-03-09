@@ -11,10 +11,10 @@ class Sidebar extends Component {
         <header className="Sidebar-header">
           <img src={logo} className="Sidebar-logo" alt="logo" />
         </header>
-        <div className="Sidebar-buttons">
+        <div >
 		 
           <div className="Sidebar-hover">
-            <p onClick={this.props.handler.bind(this, {currentPage: "myList"})}>My List</p>
+            <p className="Sidebar-buttons" onClick={this.props.handler.bind(this, {currentPage: "myList"})}>My List</p>
 		  </div>
               <div className="Sidebar-hover">
                 <p className="Sidebar-sub-buttons">TV Shows</p>
@@ -24,7 +24,7 @@ class Sidebar extends Component {
               </div>
 		  
 		  <div className="Sidebar-hover">
-			<p onClick={this.props.handler.bind(this, {currentPage: "discover"})}>Discover</p>
+			<p className="Sidebar-buttons" onClick={this.props.handler.bind(this, {currentPage: "discover"})}>Discover</p>
 		  </div>
         </div>
       </div>

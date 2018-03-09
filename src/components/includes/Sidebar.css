@@ -33,11 +33,12 @@
 
 .Sidebar-sub-buttons {
 	font-size: 20px;
-	padding-left: 15%;
+	text-align: left;
+	padding-left: 20%;
 }
 
 .Sidebar-hover {
-	padding : 0px;
+	padding-left : 0px;
 }
 .Sidebar-hover:hover * {
     background-color: #444;
