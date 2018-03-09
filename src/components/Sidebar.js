@@ -8,7 +8,6 @@ class Sidebar extends Component {
     }
 
   render() {
-  console.log(this.props.currentPage);
     return (
       <div className="Sidebar">
         <header className="Sidebar-header">
