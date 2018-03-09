@@ -1,4 +1,14 @@
+.Discover{
+	width: 100%;
+}
+
 .Discover-Title-Card img{
 	height: 200px;
 	width: 140px;
+}
+
+.Discover-Tab{
+	font-size: 30px;
+	text-align: center;
+	background-color: #272727;
 }

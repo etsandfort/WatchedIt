@@ -6,13 +6,15 @@ class Discover extends Component {
   render() {
     return (
       <div className="Discover">
+	  <div className="Discover-Tab">
         <table className="table">
           <tr>
-            <td><button className="btn btn-link">Trending</button></td>
-            <td><button className="btn btn-link">New Releases</button></td>
-            <td><button className="btn btn-link">Genres</button></td>
+            <td><div>Trending</div></td>
+            <td>New Releases</td>
+            <td>Genres</td>
           </tr>
         </table>
+	  </div>
           <h2 style={{paddingLeft: 15}} align="left">Netflix</h2>
         <table className="table">
           <tr>
@@ -38,11 +40,11 @@ class Discover extends Component {
           <h2 style={{paddingLeft: 15}} align="left">HBO</h2>
         <table className="table">
           <tr>
-            <td><button class="btn btn-primary btn-lg btn-block"><img src="https://i.imgur.com/AampuvT.png"/></button></td>
-            <td><button class="btn btn-primary btn-lg btn-block"><img src="https://i.imgur.com/AampuvT.png"/></button></td>
-            <td><button class="btn btn-primary btn-lg btn-block"><img src="https://i.imgur.com/AampuvT.png"/></button></td>
-            <td><button class="btn btn-primary btn-lg btn-block"><img src="https://i.imgur.com/AampuvT.png"/></button></td>
-            <td><button class="btn btn-primary btn-lg btn-block"><img src="https://i.imgur.com/AampuvT.png"/></button></td>
+            <td><img src="https://i.imgur.com/AampuvT.png"/></td>
+            <td><img src="https://i.imgur.com/AampuvT.png"/></td>
+            <td><img src="https://i.imgur.com/AampuvT.png"/></td>
+            <td><img src="https://i.imgur.com/AampuvT.png"/></td>
+            <td><img src="https://i.imgur.com/AampuvT.png"/></td>
           </tr>
         </table>
       </div>
