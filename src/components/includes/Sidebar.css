@@ -35,7 +35,6 @@
   font-size: 30px;
   text-align: left;
   padding-left: 10%;
-  cursor: pointer;
 }
 
 .Sidebar-sub-buttons {
@@ -45,7 +44,8 @@
 }
 
 .Sidebar-hover {
-	padding-left : 0px;
+  padding-left : 0px;
+  cursor: pointer;
 }
 .Sidebar-hover:hover * {
     background-color: #444;
