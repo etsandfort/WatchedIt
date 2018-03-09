@@ -8,7 +8,7 @@ class App extends Component {
 		super(props);
 		this.handler = this.handler.bind(this);
 		this.state = {
-            currentPage: ""
+            currentPage: "discover"
         }
 	}
 

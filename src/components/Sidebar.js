@@ -26,7 +26,7 @@ class Sidebar extends Component {
               </div>
 		  
 		  <div className="Sidebar-hover">
-			<p className={"Sidebar-buttons" + (this.props.currentPage === "discover" ? " Sidebar-Active" : "")} onClick={this.props.handler.bind(this, {currentPage: "myList"})} onClick={this.props.handler.bind(this, {currentPage: "discover"})}>Discover</p>
+			<p className={"Sidebar-buttons" + (this.props.currentPage === "discover" ? " Sidebar-Active" : "")} onClick={this.props.handler.bind(this, {currentPage: "discover"})}>Discover</p>
 		  </div>
         </div>
       </div>
