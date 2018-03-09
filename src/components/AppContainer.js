@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import MyList from './MyList.js';
 import Discover from './Discover.js';
 import ShowInfo from './ShowInfo.js';
+import SearchPage from './SearchPage.js';
 
 class AppContainer extends Component {
     constructor(props) {
@@ -16,6 +17,7 @@ class AppContainer extends Component {
                 {this.props.currentPage === "myList" && <MyList/>}
                 {this.props.currentPage === "discover" && <Discover/>}
                 {this.props.currentPage === "showInfo" && <ShowInfo/>}
+                {this.props.currentPage === "searchPage" && <SearchPage/>}
             </div>
         );
     }
