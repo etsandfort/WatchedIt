@@ -1,0 +1,31 @@
+.flex-container {
+	display: flex;
+}
+
+.quick-info {
+	flex-grow: 0;
+	width: 30%;
+	margin-top: 1%;
+}
+
+.quick-info-table {
+	margin-left: 40px;
+	width: 100%;
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+.movie-info {
+	flex-grow: 0;
+	width: 65%;
+	text-align: left;
+	margin-top: 1%;
+}
+
+.user-review-table {
+	width: 100%;
+}
+
+tr.space-above>td {
+	padding-top: 1em;
+}
