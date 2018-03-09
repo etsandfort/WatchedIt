@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from '../logo.png';
+import logo from '../images/logo.png';
 import './includes/Sidebar.css';
 
 class Sidebar extends Component {
