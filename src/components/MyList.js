@@ -17,7 +17,8 @@ class MyList extends Component {
     const columns = [{
       Header: '#',
       accessor: 'number',
-      sortable: false
+      sortable: false,
+	  width: 20
     }, {
       Header: 'Image',
       accessor: 'image',
