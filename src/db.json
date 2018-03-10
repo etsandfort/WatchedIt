@@ -1,7 +1,6 @@
 [{
-    "number": 1,
-    "image": "images/highground.jpg",
-    "title": "Star Wars Episode 3: Revenge of the Sith",
+    "image": "images/starwars3.jpg",
+    "title": "Star Wars Episode III: Revenge of the Sith",
     "myScore": 9.2,
     "globalScore": 6.9,
     "friendScore": 9.5,
@@ -10,24 +9,363 @@
     "onMyList": false
   },
   {
-    "number": 2,
-    "image": "images/duel.jpg",
+    "image": "images/yugiohdsd.jpg",
     "title": "Yu-Gi-Oh! The Dark Side of Dimensions",
     "myScore": 10,
     "globalScore": 10,
     "friendScore": 10,
     "type": "Movie",
-    "genres": ["Lit", "Children's Card Games"],
+    "genres": ["Fantasy"],
     "onMyList": false
   },
   {
-    "number": 3,
     "image": "images/jojo.jpg",
     "title": "JoJo's Bizarre Adventure",
-    "myScore": 10,
+    "myScore": 8.0,
     "globalScore": 9.5,
     "friendScore": 9.8,
     "type": "TV",
-    "genres": ["Baby Stand", "Nani"],
+    "genres": ["Adventure", "Documentary"],
     "onMyList": true
-  }]
+  },
+  {
+    "image": "images/starwars4.jpg",
+    "title": "Star Wars Episode IV: A New Hope",
+    "myScore": 8.8,
+    "globalScore": 8.5,
+    "friendScore": 7.8,
+    "type": "Movie",
+    "genres": ["Sci-Fi", "Fantasy"],
+    "onMyList": false
+  },
+  {
+    "image": "images/starwars5.jpg",
+    "title": "Star Wars Episode V: The Empire Strikes Back",
+    "myScore": 9.1,
+    "globalScore": 8.5,
+    "friendScore": 8.8,
+    "type": "Movie",
+    "genres": ["Sci-Fi", "Fantasy"],
+    "onMyList": false
+  },
+  {
+    "image": "images/starwars6.jpg",
+    "title": "Star Wars Episode VI: Return of the Jedi",
+    "myScore": 8.7,
+    "globalScore": 8.4,
+    "friendScore": 7.8,
+    "type": "Movie",
+    "genres": ["Sci-Fi", "Fantasy"],
+    "onMyList": false
+  },
+  {
+    "image": "images/starwars1.jpg",
+    "title": "Star Wars Episode I: The Phantom Menace",
+    "myScore": 7.4,
+    "globalScore": 6.5,
+    "friendScore": 6.8,
+    "type": "Movie",
+    "genres": ["Sci-Fi", "Fantasy"],
+    "onMyList": false
+  },
+  {
+    "image": "images/starwars2.jpg",
+    "title": "Star Wars Episode II: The Clone Wars",
+    "myScore": 6.8,
+    "globalScore": 5.4,
+    "friendScore": 6.0,
+    "type": "Movie",
+    "genres": ["Sci-Fi", "Fantasy"],
+    "onMyList": false
+  },
+  {
+    "image": "images/notebook.jpg",
+    "title": "The Notebook",
+    "myScore": 10,
+    "globalScore": 8.5,
+    "friendScore": 7.8,
+    "type": "Movie",
+    "genres": ["Romance", "Drama"],
+    "onMyList": false
+  },
+  {
+    "image": "images/shapeofwater.jpg",
+    "title": "The Shape of Water",
+    "myScore": 8.3,
+    "globalScore": 7.6,
+    "friendScore": 7.8,
+    "type": "Movie",
+    "genres": ["Drama","Romance"],
+    "onMyList": false
+  },
+  {
+    "image": "images/greysanatomy.jpg",
+    "title": "Grey's Anatomy",
+    "myScore": 7.6,
+    "globalScore": 7.8,
+    "friendScore": 7.7,
+    "type": "TV",
+    "genres": ["Drama", "Romance"],
+    "onMyList": false
+  },
+  {
+    "image": "images/er.jpg",
+    "title": "ER",
+    "myScore": 7.7,
+    "globalScore": 7.7,
+    "friendScore": 7.0,
+    "type": "TV",
+    "genres": ["Drama", "Romance"],
+    "onMyList": false
+  },
+  {
+    "image": "images/gossipgirl.jpg",
+    "title": "Gossip Girl",
+    "myScore": 7.6,
+    "globalScore": 7.4,
+    "friendScore": 7.8,
+    "type": "TV",
+    "genres": ["Drama", "Romance"],
+    "onMyList": false
+  },
+  {
+    "image": "images/titanic.jpg",
+    "title": "Titanic",
+    "myScore": 7.5,
+    "globalScore": 7.8,
+    "friendScore": 9,
+    "type": "Movie",
+    "genres": ["Drama", "Romance"],
+    "onMyList": false
+  },
+  {
+    "image": "images/thebigsick.jpg",
+    "title": "The Big Sick",
+    "myScore": 7.5,
+    "globalScore": 7.8,
+    "friendScore": 9,
+    "type": "Movie",
+    "genres": ["Comedy", "Drama", "Romance"],
+    "onMyList": false
+  },
+  {
+    "image": "images/themountainbetweenus.jpg",
+    "title": "The Mountain Between Us",
+    "myScore": 7.5,
+    "globalScore": 7.8,
+    "friendScore": 9,
+    "type": "Movie",
+    "genres": ["Action", "Adventure", "Drama"],
+    "onMyList": false
+  },
+  {
+    "image": "images/coco.jpg",
+    "title": "Coco",
+    "myScore": 9,
+    "globalScore": 8.5,
+    "friendScore": 8.8,
+    "type": "Movie",
+    "genres": ["Comedy", "Adventure"],
+    "onMyList": false
+  },
+  {
+    "image": "images/getout.jpg",
+    "title": "Get Out",
+    "myScore": 9.6,
+    "globalScore": 7.7,
+    "friendScore": 8.0,
+    "type": "Movie",
+    "genres": ["Horror", "Mystery"],
+    "onMyList": false
+  },
+  {
+    "image": "images/criminalminds.jpg",
+    "title": "Criminal Minds",
+    "myScore": 8.1,
+    "globalScore": 8.1,
+    "friendScore": 7.8,
+    "type": "TV",
+    "genres": ["Mystery", "Drama"],
+    "onMyList": false
+  },
+  {
+    "image": "images/cloverfieldparadox.jpg",
+    "title": "The Cloverfield Paradox",
+    "myScore": 5.0,
+    "globalScore": 5.6,
+    "friendScore": 5.3,
+    "type": "Movie",
+    "genres": ["Mystery", "Horror"],
+    "onMyList": false
+  },
+  {
+    "image": "images/batesmotel.jpg",
+    "title": "Bates Motel",
+    "myScore": 8.0,
+    "globalScore": 8.2,
+    "friendScore": 8.3,
+    "type": "TV",
+    "genres": ["Mystery", "Horror"],
+    "onMyList": false
+  },
+  {
+    "image": "images/psych.jpg",
+    "title": "Psych",
+    "myScore": 8.1,
+    "globalScore": 8.4,
+    "friendScore": 8.3,
+    "type": "TV",
+    "genres": ["Mystery", "Comedy"],
+    "onMyList": false
+  },
+  {
+    "image": "images/lost.jpg",
+    "title": "Lost",
+    "myScore": 8.0,
+    "globalScore": 8.4,
+    "friendScore": 8.5,
+    "type": "TV",
+    "genres": ["Mystery", "Adventure"],
+    "onMyList": false
+  },
+  {
+    "image": "images/thefastandthefurious.jpg",
+    "title": "The Fast and the Furious",
+    "myScore": 5.0,
+    "globalScore": 6.7,
+    "friendScore": 6.0,
+    "type": "Movie",
+    "genres": ["Action"],
+    "onMyList": false
+  },
+  {
+    "image": "images/2fast2furious.jpg",
+    "title": "2 Fast 2 Furious",
+    "myScore": 5.5,
+    "globalScore": 5.9,
+    "friendScore": 6.0,
+    "type": "Movie",
+    "genres": ["Action"],
+    "onMyList": false
+  },
+  {
+    "image": "images/xXx.jpg",
+    "title": "xXx: Return of Xander Cage",
+    "myScore": 5.0,
+    "globalScore": 5.2,
+    "friendScore": 10,
+    "type": "Movie",
+    "genres": ["Action", "Adventure"],
+    "onMyList": false
+  },
+  {
+    "image": "images/blackpanther.jpg",
+    "title": "Black Panther",
+    "myScore": 8.0,
+    "globalScore": 7.8,
+    "friendScore": 8.0,
+    "type": "Movie",
+    "genres": ["Action", "Adventure"],
+    "onMyList": false
+  },
+  {
+    "image": "images/jiro.jpg",
+    "title": "Jiro Dreams of Sushi",
+    "myScore": 8.0,
+    "globalScore": 7.9,
+    "friendScore": 8.0,
+    "type": "Movie",
+    "genres": ["Documentary"],
+    "onMyList": false
+  },
+  {
+    "image": "images/blueplanet.jpg",
+    "title": "Blue Planet",
+    "myScore": 9.1,
+    "globalScore": 9.0,
+    "friendScore": 8.8,
+    "type": "TV",
+    "genres": ["Documentary"],
+    "onMyList": false
+  },
+  {
+    "image": "images/planetearth.jpg",
+    "title": "Planet Earth",
+    "myScore": 9.3,
+    "globalScore": 9.4,
+    "friendScore": 9.3,
+    "type": "TV",
+    "genres": ["Documentary"],
+    "onMyList": false
+  },
+  {
+    "image": "images/giftshop.jpg",
+    "title": "Exit Through the Gift Shop",
+    "myScore": 8.4,
+    "globalScore": 8.0,
+    "friendScore": 8.0,
+    "type": "Movie",
+    "genres": ["Documentary", "Comedy"],
+    "onMyList": false
+  },
+  {
+    "image": "images/health.jpg",
+    "title": "What the Health",
+    "myScore": 8.2,
+    "globalScore": 7.9,
+    "friendScore": 8.1,
+    "type": "Movie",
+    "genres": ["Documentary"],
+    "onMyList": false
+  },
+  {
+    "image": "images/hotfuzz.jpg",
+    "title": "Hot Fuzz",
+    "myScore": 8.2,
+    "globalScore": 7.9,
+    "friendScore": 8.1,
+    "type": "Movie",
+    "genres": ["Action","Comedy"],
+    "onMyList": false
+  },
+  {
+    "image": "images/21jumpstreet.jpg",
+    "title": "21 Jump Street",
+    "myScore": 7.2,
+    "globalScore": 7.2,
+    "friendScore": 7.1,
+    "type": "Movie",
+    "genres": ["Action","Comedy"],
+    "onMyList": false
+  },
+  {
+    "image": "images/halloween.jpg",
+    "title": "Halloween",
+    "myScore": 8.2,
+    "globalScore": 7.8,
+    "friendScore": 7.1,
+    "type": "Movie",
+    "genres": ["Horror"],
+    "onMyList": false
+  },
+  {
+    "image": "images/conjuring.jpg",
+    "title": "The Conjuring",
+    "myScore": 6.8,
+    "globalScore": 7.5,
+    "friendScore": 7.0,
+    "type": "Movie",
+    "genres": ["Horror"],
+    "onMyList": false
+  },
+  {
+    "image": "images/shining.jpg",
+    "title": "The Shining",
+    "myScore": 8.2,
+    "globalScore": 8.4,
+    "friendScore": 8.3,
+    "type": "Movie",
+    "genres": ["Horror"],
+    "onMyList": false
+  }
+]

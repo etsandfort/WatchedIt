@@ -18,7 +18,7 @@ class App extends Component {
 
     render() {
         return (
-            <body className="App">
+            <div className="App">
                 <div className="flex-container">
                     <div className="sidebar-flex">
                         <Sidebar handler = {this.handler.bind(this)}  currentPage={this.state.currentPage}/>
@@ -27,7 +27,7 @@ class App extends Component {
                         <AppContainer currentPage={this.state.currentPage}/>
                     </div>
                 </div>
-            </body>
+            </div>
         );
     }
 }

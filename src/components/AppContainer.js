@@ -21,8 +21,8 @@ class AppContainer extends Component {
         return (
             <div className="AppContainer">
                 {this.props.currentPage === "myList" && <MyList listItems={this.props.db.shows}/>}
-                {this.props.currentPage === "discover" && <Discover/>}
-                {this.props.currentPage === "showInfo" && <ShowInfo/>}
+                {this.props.currentPage === "discover" && <Discover listItems={this.props.db.shows}/>}
+                {this.props.currentPage === "showInfo" && <ShowInfo listItems={this.props.db.shows}/>}
             </div>
         );
     }

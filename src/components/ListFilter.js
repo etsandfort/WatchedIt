@@ -22,12 +22,9 @@ class ListFilter extends Component {
                     <option>Documentary</option>
                     <option>Drama</option>
                     <option>Horror</option>
-                    <option>International</option>
                     <option>Mystery</option>
-                    <option>Reality</option>
                     <option>Romance</option>
                     <option>Sci-Fi/Fantasy</option>
-                    <option>Thriller</option>
                 </select>
             </div>
         );
