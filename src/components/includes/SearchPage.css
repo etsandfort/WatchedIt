@@ -31,3 +31,9 @@ input[type=text] {
 form {
     padding: 10px;
 }
+
+img{
+	height: 143px;
+    width: 100px;
+    cursor: pointer;
+}

@@ -2,25 +2,37 @@
 	width: 100%;
 }
 
-.Discover-Title-Card img{
-	height: 200px;
-	width: 140px;
+.Discover-Title-Card{
+	height: 240px;
+	width: 180px;
+}
+
+.Discover-Title-Card img, p{
+	cursor: pointer;
 }
 
 .Discover-Tab{
 	font-size: 30px;
 	text-align: center;
-	background-color: #272727;
 	overflow: hidden;
 	height: 70px;
 	width: 100%;
 	padding: 10px;
 }
 
+hr{
+	background-color: white;
+}
 .Discover-Tab-Option{
 	float: left;
 	width: 25%;
 	cursor: pointer;
+}
+
+
+.ListsContainer{
+	padding-right: 20px;
+	overflow: auto;
 }
 
 .flex-container {

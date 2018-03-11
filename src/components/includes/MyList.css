@@ -29,5 +29,6 @@ ul {
 }
 img{
 	height: 143px;
-	width: 100px;
+    width: 100px;
+    cursor: pointer;
 }

@@ -23,12 +23,13 @@ class MyList extends Component {
 	  width: 20
     }, {
       Header: 'Image',
-      accessor: 'image',
+      accessor: 'imageAndTitle',
       sortable: false,
-      Cell: row => <img src={row.value} alt="Title Card" width="100px" height="100px" />
+      Cell: row => <img src={row.value.image} alt="Title Card" onClick={this.loadShowInfo.bind(this, row.value.title)}/>
     }, {
       Header: 'Title',
-      accessor: 'title',
+      accessor: 'imageAndTitle.title',
+      Cell: row => <p onClick={this.loadShowInfo.bind(this, row.value)}>{row.value}</p>
     }, {
       Header: 'My Score',
       accessor: 'myScore',
@@ -98,7 +99,7 @@ class MyList extends Component {
           defaultPageSize={10}
           defaultFilterMethod={defaultFilterMethod}
           style={{
-            height: "80vh" 
+            height: "70vh" 
           }}
           filtered={[{
             id: 'type',
@@ -118,8 +119,7 @@ class MyList extends Component {
       if(item.onMyList){
         list.push({
           number: i,
-          image: item.image,
-          title: item.title,
+          imageAndTitle: {image: item.image, title: item.title},
           myScore: item.myScore,
           globalScore: item.globalScore,
           friendScore: item.friendScore,
@@ -138,6 +138,11 @@ class MyList extends Component {
       inputValue: '',
       itemsToDisplay: this.props.listItems
     });
+  }
+
+  loadShowInfo(element){
+    this.props.showInfoPageSetter(element);
+    this.props.handler({currentPage: "showInfo"});
   }
 
   updateInputValue(evt) {

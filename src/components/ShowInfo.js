@@ -42,7 +42,7 @@ class ShowInfo extends Component {
                         <tbody>
                             <tr>
                                 <td><b>Genre:</b></td>
-                                <td>{this.props.showInfo.genres.join(",")}</td>
+                                <td className="genreList">{this.props.showInfo.genres.join(", \n")}</td>
                             </tr>
                             <tr>
                                 <td><b>Rating:</b></td>

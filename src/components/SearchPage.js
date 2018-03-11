@@ -16,12 +16,13 @@ class SearchPage extends Component {
 
     const columns = [{
       Header: 'Image',
-      accessor: 'image',
+      accessor: 'imageAndTitle',
       sortable: false,
-      Cell: row => <img src={row.value} alt="Title Card" width="100px" height="100px" />
+      Cell: row => <img src={row.value.image} alt="Title Card" onClick={this.loadShowInfo.bind(this, row.value.title)}/>
     }, {
       Header: 'Title',
-      accessor: 'title',
+      accessor: 'imageAndTitle.title',
+      Cell: row => <p onClick={this.loadShowInfo.bind(this, row.value)}>{row.value}</p>
     }, {
       Header: 'Global Score',
       accessor: 'globalScore' ,
@@ -72,8 +73,7 @@ class SearchPage extends Component {
       let buttonText = item.onMyList ? 'Remove from List' : 'Add to List'; 
       list.push({
         number: i,
-        image: item.image,
-        title: item.title,
+        imageAndTitle: {image: item.image, title: item.title},
         myScore: item.myScore,
         globalScore: item.globalScore,
         friendScore: item.friendScore,
@@ -92,6 +92,11 @@ class SearchPage extends Component {
     }, this.search);
   }
 
+  loadShowInfo(element){
+    this.props.showInfoPageSetter(element);
+    this.props.handler({currentPage: "showInfo"});
+  }
+  
   search(){
     let itemsToDisplay = [];
     this.props.listItems.forEach(element => {
