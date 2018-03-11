@@ -26,7 +26,17 @@
     "friendScore": 9.8,
     "type": "TV",
     "genres": ["Adventure", "Documentary"],
-    "onMyList": true
+    "onMyList": false
+  },
+  {
+    "image": "images/siliconvalley.jpg",
+    "title": "Silicon Valley",
+    "myScore": 8.0,
+    "globalScore": 8.6,
+    "friendScore": 8.8,
+    "type": "TV",
+    "genres": ["Adventure", "Documentary"],
+    "onMyList": false
   },
   {
     "image": "images/starwars4.jpg",

@@ -3,9 +3,6 @@ import logo from '../images/logo.png';
 import './includes/Sidebar.css';
 
 class Sidebar extends Component {
-    constructor(props) {
-        super(props);
-    }
 
   render() {
     return (

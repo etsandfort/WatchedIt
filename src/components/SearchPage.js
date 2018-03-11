@@ -4,6 +4,13 @@ import './includes/SearchPage.css';
 import ReactTable from 'react-table';
 
 class SearchPage extends Component {
+  constructor(){
+    super();
+    this.state={
+      itemsToDisplay: [],
+      inputValue: ''
+    };
+  }
   render() {
     const data = this.makeList();
 
@@ -23,23 +30,35 @@ class SearchPage extends Component {
       accessor: 'type',
     }, {
       Header: '',
-      Cell: row => <button type="button" className="btn btn-primary">Add to List</button>,
+      accessor: 'listStatus',
+      Cell: row => <button type="button" className="btn btn-primary"
+                    onClick={ this.props.listStatusToggler.bind(this, row.value.key)}>{row.value.buttonText}</button>,
       sortable: false,
     }];
     
+    let results = this.state.inputValue === ''? <p>Search for a Show or Movie</p> :
+      <ReactTable
+      noDataText={"No search results found"}
+      className="-highlight"
+      data={data}
+      columns={columns} 
+      minRows={1}
+      defaultPageSize={this.props.listItems.length}
+      showPagination={false}
+      defaultPageSize={10}
+      style={{
+        height: "80vh"
+      }}/>;
+
     return (
       <div className="SearchPage">
       <div className="flex-container">
       <div className="searchPage-content">
       <form>
-        <input type="text" name="search" placeholder="Search.."/>
+        <input type="text" name="search" placeholder="Search.."
+         value={this.state.inputValue} onChange={evt => this.updateInputValue(evt)} autoFocus="true"/>
       </form>
-        <ReactTable
-          className="-highlight"
-          data={data}
-          columns={columns} 
-          minRows={1}
-          showPagination={false} />
+        {results}
       </div>
       </div>
       </div>
@@ -49,8 +68,8 @@ class SearchPage extends Component {
   makeList(){
     var list = [];
     let i = 1;
-    this.props.listItems.forEach((item)=>{
-      console.log(item.onMyList);
+    this.state.itemsToDisplay.forEach((item)=>{
+      let buttonText = item.onMyList ? 'Remove from List' : 'Add to List'; 
       list.push({
         number: i,
         image: item.image,
@@ -59,21 +78,37 @@ class SearchPage extends Component {
         globalScore: item.globalScore,
         friendScore: item.friendScore,
         type: item.type,
-        genres: item.genres
+        genres: item.genres,
+        listStatus: {buttonText: buttonText, key: item.title},
       });
       i++;
     });
     return list;
   }
-  toggleFilter(){
-    this.setState({showFilter: !(this.state.showFilter)});
+
+  updateInputValue(evt) {
+    this.setState({
+      inputValue: evt.target.value
+    }, this.search);
   }
+
+  search(){
+    let itemsToDisplay = [];
+    this.props.listItems.forEach(element => {
+      if(this.state.inputValue!=='' && 
+      element.title.toLowerCase().includes(this.state.inputValue.toLowerCase())){
+        itemsToDisplay.push(element);
+      }
+    });
+    this.setState({itemsToDisplay: itemsToDisplay});
+  }
+
 }
 
 
 
 SearchPage.defaultState = {
-  showFilter: false,
+  itemsToDisplay: [],
 }
 
 SearchPage.defaultProps = {
