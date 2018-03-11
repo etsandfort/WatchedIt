@@ -11,6 +11,10 @@ ul {
 	width: 98%;
 }
 
+.ReactTable {
+    background: #222;
+}
+
 img{
 	height: 200px;
 	width: 140px;

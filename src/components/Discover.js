@@ -36,7 +36,8 @@ class Discover extends Component {
         list.push(
           <td key={i}>
             <div className="Discover-Title-Card">
-            <img src={element.image} alt={element.title}/>
+            <img src={element.image} alt={element.title} onClick={this.props.handler.bind(this, {currentPage: "showInfo", currentlyViewingShow: element.title})}/>
+            <p>{element.title}</p>
             </div>
           </td>
         );
