@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Scrollbars } from 'react-custom-scrollbars';
 import './includes/ShowInfo.css';
 
 class ShowInfo extends Component {
@@ -61,6 +62,7 @@ class ShowInfo extends Component {
 					<button type="button" className="btn btn-primary btn-md" onClick={ this.props.listStatusToggler.bind(this, this.props.showInfo.title)}>{buttonText}</button>
                 </div>
                 <div className="movie-info">
+					<Scrollbars style={{ height: "85vh" }} className="ShowInfo-Page-Scroll">
                     <h2>{this.props.showInfo.title} ({this.props.showInfo.year})</h2>
                     <h5>Synopsis</h5>
                     <p>
@@ -72,6 +74,7 @@ class ShowInfo extends Component {
                             {reviews}
                         </tbody>
                     </table>
+					</Scrollbars>
                 </div>
             </div>
         )
