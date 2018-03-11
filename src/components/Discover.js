@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Scrollbars } from 'react-custom-scrollbars';
 import './includes/App.css';
 import './includes/Discover.css';
 
@@ -46,6 +47,7 @@ class Discover extends Component {
     return(
       <div key={genre}>
       <h2 style={{paddingLeft: 15}} align="left">{genre}</h2>
+	  <Scrollbars style={{ height: 242}} className="Discover-Table-Scroll">
       <table className="table">
         <tbody>
           <tr>
@@ -53,6 +55,7 @@ class Discover extends Component {
           </tr>
         </tbody>
       </table>
+	  </Scrollbars>
       </div>
     );
 
