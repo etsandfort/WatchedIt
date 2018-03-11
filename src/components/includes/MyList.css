@@ -1,5 +1,6 @@
 .MyList {
-	width: 98%;
+    width: 98%;
+    overflow: hidden;;
 }
 
 .MyList-buttons {
@@ -13,10 +14,6 @@
 ul {
     list-style-type: none;
     padding: 0;
-}
-
-.MyList {
-	width: 98%;
 }
 
 .ReactTable {
