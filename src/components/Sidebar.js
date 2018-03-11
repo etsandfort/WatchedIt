@@ -12,6 +12,9 @@ class Sidebar extends Component {
         </header>
 
         <div>
+		  <div className="Sidebar-hover">
+            <p className={"Sidebar-buttons" + (this.props.currentPage === "discover" ? " Sidebar-Active" : "")} onClick={this.props.handler.bind(this, {currentPage: "discover"})}>Discover</p>
+          </div>
           <div className="Sidebar-hover">
             <p className={"Sidebar-buttons" + (this.props.currentPage === "myList" ? " Sidebar-Active" : "")} onClick={this.props.handler.bind(this, {currentPage: "myList", mediaFilter: ""})} >My List</p>
           </div>
@@ -20,10 +23,6 @@ class Sidebar extends Component {
           </div>
           <div className="Sidebar-hover">
             <p className={"Sidebar-sub-buttons" + (this.props.currentPage === "myList" && this.props.mediaFilter === "Movie" ? " Sidebar-Active" : "")} onClick={this.props.handler.bind(this, {currentPage: "myList", mediaFilter: "Movie"})}>Movies</p>
-          </div>
-          
-          <div className="Sidebar-hover">
-            <p className={"Sidebar-buttons" + (this.props.currentPage === "discover" ? " Sidebar-Active" : "")} onClick={this.props.handler.bind(this, {currentPage: "discover"})}>Discover</p>
           </div>
         </div>
       </div>
