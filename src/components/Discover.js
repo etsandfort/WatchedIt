@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Scrollbars } from 'react-custom-scrollbars';
 import './includes/App.css';
 import './includes/Discover.css';
 
@@ -28,7 +29,11 @@ class Discover extends Component {
     );
   }
 
-  createGenreRow(genre){
+  loadShowInfo(element){
+    this.props.showInfoPageSetter(element.title);
+    this.props.handler({currentPage: "showInfo"});
+  }
+ createGenreRow(genre){
     let list = [];
     let i=0;
     this.props.listItems.forEach(element => {
@@ -36,7 +41,8 @@ class Discover extends Component {
         list.push(
           <td key={i}>
             <div className="Discover-Title-Card">
-            <img src={element.image} alt={element.title}/>
+            <img src={element.image} alt={element.title} onClick={this.loadShowInfo.bind(this, element)}/>
+            <p>{element.title}</p>
             </div>
           </td>
         );
@@ -46,6 +52,7 @@ class Discover extends Component {
     return(
       <div key={genre}>
       <h2 style={{paddingLeft: 15}} align="left">{genre}</h2>
+	  <Scrollbars style={{ height: 242}} className="Discover-Table-Scroll">
       <table className="table">
         <tbody>
           <tr>
@@ -53,6 +60,7 @@ class Discover extends Component {
           </tr>
         </tbody>
       </table>
+	  </Scrollbars>
       </div>
     );
 

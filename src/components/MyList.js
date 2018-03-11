@@ -63,15 +63,6 @@ class MyList extends Component {
       const id = filter.pivotId || filter.id
       return row[id] !== undefined ? String(row[id]).toLowerCase().startsWith(filter.value.toLowerCase()) : true
     }
-    let results = data.length === 0? <p>There's nothing on your List! Click "Add a Show/Movie" to add to your list</p>:
-      <ReactTable
-      noDataText="Oh Noes!"
-      className="-highlight"
-      data={data}
-      columns={columns} 
-      minRows={1}
-      showPagination={false}
-      defaultFilterMethod={defaultFilterMethod}/>;
     return (
       <div className="MyList">
         <div className="MyList-buttons row">
@@ -116,7 +107,10 @@ class MyList extends Component {
   makeList(){
     var list = [];
     let i = 1;
-    this.state.itemsToDisplay.forEach((item)=>{
+    let itemsToDisplay = this.state.itemsToDisplay;
+    if(this.props.mediaFilter !== "")
+      itemsToDisplay = itemsToDisplay.filter(item => item.type===this.props.mediaFilter);
+    itemsToDisplay.forEach((item)=>{
       if(item.onMyList){
         list.push({
           number: i,
@@ -131,8 +125,6 @@ class MyList extends Component {
       i++;
       }
     });
-    if(this.props.mediaFilter !== "")
-      list = list.filter(item => item.type===this.props.mediaFilter);
     return list;
   }
   
