@@ -8,7 +8,7 @@ class Sidebar extends Component {
     return (
       <div className="Sidebar">
         <header className="Sidebar-header">
-          <img src={logo} className="Sidebar-logo" alt="logo" />
+          <img src={logo} className="Sidebar-logo" alt="logo" onClick={this.props.handler.bind(this, {currentPage: "discover"})}/>
         </header>
 
         <div>
