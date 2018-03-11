@@ -7,7 +7,9 @@ class MyList extends Component {
   constructor(props){
     super(props);
     this.state={
-      showFilter: false
+      showFilter: false,
+      itemsToDisplay: props.listItems,
+      inputValue: ''
     };
   }
 
@@ -27,7 +29,6 @@ class MyList extends Component {
     }, {
       Header: 'Title',
       accessor: 'title',
-      filterable: this.state.showFilter
     }, {
       Header: 'My Score',
       accessor: 'myScore',
@@ -40,7 +41,6 @@ class MyList extends Component {
     }, {
       Header: 'Type',
       accessor: 'type',
-      filterable: this.state.showFilter
     }, {
       Header: 'Genres',
       accessor: 'genres',
@@ -74,20 +74,24 @@ class MyList extends Component {
       defaultFilterMethod={defaultFilterMethod}/>;
     return (
       <div className="MyList">
-        <header className="MyList-header">
-          <h1 className="App-title">My List</h1>
-        </header>
-        <div className="row">
-          <div className="col-sm-4 control-group">
-            <button className="btn btn-primary" onClick={this.props.handler.bind(this, {currentPage: 'searchPage'})}>
+        <div className="MyList-buttons row">
+          <div className="col-sm-4">
+            <button className="btn btn-lg btn-primary" onClick={this.props.handler.bind(this, {currentPage: 'searchPage'})}>
               Add a Show/Movie
             </button>
           </div>
           <div className="col-sm-4 offset-sm-4">
-            <button className="btn btn-info" onClick={this.toggleFilter.bind(this)}>
+            <button className="btn btn-lg btn-info" onClick={this.toggleFilter.bind(this)}>
               Advanced Filter
             </button>
           </div>
+        </div>
+        <div className="row">
+          <form className="col-sm-10 offset-sm-1">
+            <input className="form-control" type="text" name="search" placeholder="Search..." 
+            value={this.state.inputValue} onChange={evt => this.updateInputValue(evt)} autoFocus="true"
+            style={{visibility: this.state.showFilter ? "visible" : "hidden"}}/>
+          </form>
         </div>
         <ReactTable
           noDataText={"There's nothing on your List! Click \"Add a Show/Movie\" to add to your list"}
@@ -112,7 +116,7 @@ class MyList extends Component {
   makeList(){
     var list = [];
     let i = 1;
-    this.props.listItems.forEach((item)=>{
+    this.state.itemsToDisplay.forEach((item)=>{
       if(item.onMyList){
         list.push({
           number: i,
@@ -131,16 +135,37 @@ class MyList extends Component {
       list = list.filter(item => item.type===this.props.mediaFilter);
     return list;
   }
-
+  
   toggleFilter(){
     this.setState({showFilter: !(this.state.showFilter)});
   }
 
+  updateInputValue(evt) {
+    this.setState({
+      inputValue: evt.target.value
+    }, this.filter);
+  }
+
+  filter(){
+    let itemsToDisplay = [];
+    if(this.state.inputValue==='') {
+      itemsToDisplay = this.props.listItems;
+    }
+    else {
+      this.props.listItems.forEach(element => {
+        if(element.title.toLowerCase().includes(this.state.inputValue.toLowerCase())){
+          itemsToDisplay.push(element);
+        }
+      });
+    }
+    this.setState({itemsToDisplay: itemsToDisplay});
+  }
 }
 
 
 MyList.defaultState = {
   showFilter: false,
+  itemsToDisplay: []
 }
 
 MyList.defaultProps = {
