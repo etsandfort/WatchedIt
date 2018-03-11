@@ -30,3 +30,7 @@
     flex-grow: 0;
     width: 98%;
 }
+
+.Discover-Table-Scroll{
+	overflow-x: Scroll;
+}
