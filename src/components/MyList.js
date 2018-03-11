@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Scrollbars } from 'react-custom-scrollbars';
 import './includes/MyList.css';
 import ReactTable from 'react-table';
 
@@ -89,6 +90,7 @@ class MyList extends Component {
           autoFocus="true" style={{visibility: this.state.showFilter ? "visible" : "hidden"}}
           ref={input => input && input.focus()}/>
         </div>
+		<Scrollbars style={{height: "70vh"}}>
         <ReactTable
           noDataText={noResults}
           className="-highlight"
@@ -105,6 +107,7 @@ class MyList extends Component {
             id: 'type',
             value: this.props.mediaFilter
           }]}/>
+		  </Scrollbars>
       </div>
     );
   }

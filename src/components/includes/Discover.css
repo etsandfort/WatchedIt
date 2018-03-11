@@ -47,3 +47,7 @@ hr{
 .Discover-Table-Scroll{
 	overflow-x: Scroll;
 }
+
+.Discover-Tab-Hover{
+	background-color: #444;
+}
