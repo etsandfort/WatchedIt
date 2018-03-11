@@ -439,12 +439,12 @@
     "type": "Movie",
     "genres": ["Action", "Adventure"],
     "onMyList": false,
-    "rating": "N/A",
-    "year": 1000,
-    "synopsis": "SYNOPSIS HERE",
-    "reviewers": ["NAME1 HERE", "NAME2 HERE"],
-    "reviews": ["REVIEW ONE HERE",
-    "REVIEW TWO HERE"]
+    "rating": "PG-13",
+    "year": 2018,
+    "synopsis": "After the events of Captain America: Civil War, King T'Challa returns home to the reclusive, technologically advanced African nation of Wakanda to serve as his country's new leader. However, T'Challa soon finds that he is challenged for the throne from factions within his own country. When two foes conspire to destroy Wakanda, the hero known as Black Panther must team up with C.I.A. agent Everett K. Ross and members of the Dora Milaje, Wakandan special forces, to prevent Wakanda from being dragged into a world war.",
+    "reviewers": ["srawrats", "lfcamacho"],
+    "reviews": ["I really had high expectations going in, maybe too high, but at some point I thought the Black Panther was in the Fast and the Furious and then some typical heist movie. OK, I'm being harsh and I didn't hate it, just didn't like it, kinda blah. And all the talk about Marvels first black superhero, but as far as movies go lets not forget Blade. I have seen Blade a few times, and I think I like it better, a little bloody, but I liked Snipes in that role, he nailed it. You know what, maybe I'm just suddenly tired of these current Hollywood blockbusters.",
+    "Visually, cool as heck. Effects were on point. Michael B Jordan as a villain was AMAZING. All else...skip. I wanted to like this movie and looked forward to it after BP's debut in Civil War. His character and performance, and the movie wasn't nearly as good as BP in Civil War. I was very disappointed last night. And I'm a huge fan of the MCU."]
   },
   {
     "image": "images/jiro.jpg",
@@ -455,12 +455,12 @@
     "type": "Movie",
     "genres": ["Documentary"],
     "onMyList": false,
-    "rating": "N/A",
-    "year": 1000,
-    "synopsis": "SYNOPSIS HERE",
-    "reviewers": ["NAME1 HERE", "NAME2 HERE"],
-    "reviews": ["REVIEW ONE HERE",
-    "REVIEW TWO HERE"]
+    "rating": "PG",
+    "year": 2011,
+    "synopsis": "In the basement of a Tokyo office building, 85 year old sushi master Jiro Ono works tirelessly in his world renowned restaurant, Sukiyabashi Jiro. As his son Yoshikazu faces the pressures of stepping into his father's shoes and taking over the legendary restaurant, Jiro relentlessly pursues his lifelong quest to create the perfect piece of sushi.",
+    "reviewers": ["Mamgoforit", "Sean Lamberger"],
+    "reviews": ["I was thoroughly charmed by the film. When I read the synopsis, I thought I would be bored to tears. But it's a lovely, poignant, challenging documentary about excellence, discipline, vocational call, tenacity. The film challenged me to think about my own persistence, an ongoing striving to improve and grow, doing work for the love of it and much less so for the financial gain. the documentary highlights the ability to succeed after incredible hardship, and some would say, cruelty. The cinematography was elegant, the music varied and interesting, the precision of the art of making sushi, the rigor and discipline to do it well, the requirement to be surrounded by others who always want to excel. A wonderful film and I'll see it again...and again. It even made me want to eat sushi...which I never do.",
+    "A lingering, sentimental look at the mentality and habits of Jiro Ono, legendary sushi chef and Japanese national treasure. The long, personal chats with Jiro and sons, plus an exhaustive investigation into every aspect of his business, are balanced by an overly generous dose of shallow focal-range, slow-motion food porn. Like many stereotypical wise men of his age and nationality, the old master also has plenty of sharp, stirring wisdom to impart. Though he doesn't come right out and say it, it's easy to see the parallels he hopes you'll draw between his dedication to the kitchen and the nuances of a rewarding life, and my breath caught in my throat on more than one occasion. A great vehicle for deep immersion into a very traditional Japanese culture, this is far deeper and more rewarding than it initially lets on."]
   },
   {
     "image": "images/blueplanet.jpg",
@@ -471,12 +471,12 @@
     "type": "TV",
     "genres": ["Documentary"],
     "onMyList": false,
-    "rating": "N/A",
-    "year": 1000,
-    "synopsis": "SYNOPSIS HERE",
-    "reviewers": ["NAME1 HERE", "NAME2 HERE"],
-    "reviews": ["REVIEW ONE HERE",
-    "REVIEW TWO HERE"]
+    "rating": "TV-G",
+    "year": 2001,
+    "synopsis": "Mammoth series, five years in the making, taking a look at the rich tapestry of life in the world's oceans.",
+    "reviewers": ["rodeler", "swisstoni"],
+    "reviews": ["As a SCUBA diver, I can appreciate the incredible physical strain the cameramen must have endured to get the shots underwater. This series is MUCH more than that, though. The narration is perfect, the scenes bordering on implausible and the subject matter enthralling. The day to day struggle for life taking place out of the view of we terrestrial dwellers is mind boggling. This DVD set has open my eyes to another planet right here on Earth. I urge everyone to watch this series.",
+    "The BBC'S Blue Planet is simply jaw-dropping. I don't think I'm exaggerating when I say it contains some of the most beautiful sequences ever captured on film. From familiar creatures on and near the surface of the ocean to some more unrecognisable and just plain bizarre ones in the murky depths, next to nothing is left out. Weighing in at a hefty 8 hours, some people may want to check out the edited highlights brought to you in the form of the film 'Deep Blue' but I would heartily recommend you give the series a go. I don't think it will disappoint and if your kids enjoyed the aquatic world brought to them by Pixar's Finding Nemo I'm sure they will love this too. I just wish all television was this entertaining."]
   },
   {
     "image": "images/planetearth.jpg",
@@ -487,12 +487,12 @@
     "type": "TV",
     "genres": ["Documentary"],
     "onMyList": false,
-    "rating": "N/A",
-    "year": 1000,
-    "synopsis": "SYNOPSIS HERE",
-    "reviewers": ["NAME1 HERE", "NAME2 HERE"],
-    "reviews": ["REVIEW ONE HERE",
-    "REVIEW TWO HERE"]
+    "rating": "TV-G",
+    "year": 2006,
+    "synopsis": "Each 50 minute episode features a global overview of a different biome or habitat on Earth (Polar, Mountain, Cave, Desert, Plains, Fresh Water, Seas, Ocean, Forest), followed by a ten-minute featurette which takes a behind-the-scenes look at the challenges of filming the episode.",
+    "reviewers": ["cmcoveos", "ultimorn"],
+    "reviews": ["The subtitle of the series is not an exaggeration; it has a literal meaning: This is indeed our planet as 'never seen before'. Right from the outset you are witnessing the most amazing pictures modern technology has ever produced: Views from space, but close enough so we may see the glorious beauty of specific regions of our home planet. Birds of paradise of such beauty that can convince you this is the real paradise and you need not ask for anything more; All the creatures are filmed in unique settings and situations (a polar bear with two cubs emerging from their den as spring comes and gliding down a snow covered slope, the strategic genius of wild dogs encircling a herd of impalas, rare views of a snow leopard and her cub, a white shark in chase of a seal bursting completely out of the sea and hanging in the air for a second and hundreds of other breath-taking shots. Feeling happy for the gift you are given and the next moment plunged in bitter thoughts about how unbelievably brutally has mankind treated it. My rating: Definitely 10/10.",
+    "I have seen many nature documentaries in my life and none have left me in such amazement of our planet as this series. The sheer work that went into its making alone is impressive. The shots that are captured on film are like none ever seen and remind us of both the power of mother nature and her fragility. I highly recommend this series to people of all ages as there is something for everyone. If you do watch any of the episodes, do watch 'Pole to Pole'. It is a great all-encompassing view of many animals and their habitats. David Attenborough does a great job as narrator. If you enjoy this series also check out 'The Blue Planet', a series by the BBC on oceans (also narrated by Attenborough)."]
   },
   {
     "image": "images/giftshop.jpg",
@@ -503,12 +503,12 @@
     "type": "Movie",
     "genres": ["Documentary", "Comedy"],
     "onMyList": false,
-    "rating": "N/A",
-    "year": 1000,
-    "synopsis": "SYNOPSIS HERE",
-    "reviewers": ["NAME1 HERE", "NAME2 HERE"],
-    "reviews": ["REVIEW ONE HERE",
-    "REVIEW TWO HERE"]
+    "rating": "R",
+    "year": 2010,
+    "synopsis": "The story of how an eccentric French shop-keeper and amateur film-maker attempted to locate and befriend Banksy, only to have the artist turn the camera back on its owner. The film contains footage of Banksy, Shephard Fairey, Invader and many of the world's most infamous graffiti artists at work.",
+    "reviewers": ["Hardboiled frog", "SnoopyStyle"],
+    "reviews": ["The first half of the movie was good, except for the infinite unnecessary appearances and interviews of the camera d-bag -Mr. Brainwash- instead of the real artists... When I said good I meant it could've been a very engaging documentary, the topic is interesting, they got rare footage, exclusive interviews with the artists.... the second half makes me see, he wasn't an annoying french with good intentions, he was just an artist/rock star/d-bag wanna be... not much to say actually, should you watch this documentary? yes, it's a pop culture thing if you like to stay in touch with the world! should you watch every minute(even the boring bragging of the french spoiled kid) Nah, just ignore him, skip the boring parts and you will have a not so bad time.",
+    "Banksy directs a documentary about Thierry Guetta who immigrated from France in 1999. He opened a trendy vintage clothing shop in L.A. He is constantly filming with his video camera. He discovers his cousin is street artist Space Invader which turns into a more in-depth obsession with other street artists. Invader connects him with Shepard Fairey which leads to other artists. He gets intrigued with the secretive Banksy. He films Banksy and then Banksy turns the camera on him."]
   },
   {
     "image": "images/health.jpg",
