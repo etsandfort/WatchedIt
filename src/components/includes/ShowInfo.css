@@ -33,3 +33,7 @@ tr.space-above>td {
 td.genreList{
 	white-space: pre;
 }
+
+.ShowInfo-Page-Scroll {
+	overflow-y: scroll;
+}
