@@ -6,6 +6,10 @@
     margin: 15px;
 }
 
+#search {
+    margin-bottom: 15px;
+}
+
 ul {
     list-style-type: none;
     padding: 0;

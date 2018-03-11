@@ -96,7 +96,8 @@ class SearchPage extends Component {
     let itemsToDisplay = [];
     this.props.listItems.forEach(element => {
       if(this.state.inputValue!=='' && 
-      element.title.toLowerCase().includes(this.state.inputValue.toLowerCase())){
+      (element.title.toLowerCase().includes(this.state.inputValue.toLowerCase()) ||
+      element.type.toLowerCase().includes(this.state.inputValue.toLowerCase()))){
         itemsToDisplay.push(element);
       }
     });

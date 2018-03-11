@@ -63,6 +63,11 @@ class MyList extends Component {
       const id = filter.pivotId || filter.id
       return row[id] !== undefined ? String(row[id]).toLowerCase().startsWith(filter.value.toLowerCase()) : true
     }
+
+    let noResults = this.state.inputValue === "" ?
+    "There's nothing on your List! Click \"Add a Show/Movie\" to add to your list" :
+    "No search results found";
+
     return (
       <div className="MyList">
         <div className="MyList-buttons row">
@@ -78,14 +83,13 @@ class MyList extends Component {
           </div>
         </div>
         <div className="row">
-          <form className="col-sm-10 offset-sm-1">
-            <input className="form-control" type="text" name="search" placeholder="Search..." 
-            value={this.state.inputValue} onChange={evt => this.updateInputValue(evt)} autoFocus="true"
-            style={{visibility: this.state.showFilter ? "visible" : "hidden"}}/>
-          </form>
+          <input className="form-control col-sm-10 offset-sm-1" id="search" type="text" name="search" 
+          placeholder="Search..." value={this.state.inputValue} onChange={evt => this.updateInputValue(evt)} 
+          autoFocus="true" style={{visibility: this.state.showFilter ? "visible" : "hidden"}}
+          ref={input => input && input.focus()}/>
         </div>
         <ReactTable
-          noDataText={"There's nothing on your List! Click \"Add a Show/Movie\" to add to your list"}
+          noDataText={noResults}
           className="-highlight"
           data={data}
           columns={columns} 
@@ -129,7 +133,11 @@ class MyList extends Component {
   }
   
   toggleFilter(){
-    this.setState({showFilter: !(this.state.showFilter)});
+    this.setState({
+      showFilter: !(this.state.showFilter),
+      inputValue: '',
+      itemsToDisplay: this.props.listItems
+    });
   }
 
   updateInputValue(evt) {
@@ -145,7 +153,8 @@ class MyList extends Component {
     }
     else {
       this.props.listItems.forEach(element => {
-        if(element.title.toLowerCase().includes(this.state.inputValue.toLowerCase())){
+        if(element.title.toLowerCase().includes(this.state.inputValue.toLowerCase()) ||
+        element.type.toLowerCase().includes(this.state.inputValue.toLowerCase())){
           itemsToDisplay.push(element);
         }
       });
