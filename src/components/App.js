@@ -24,7 +24,7 @@ class App extends Component {
                         <Sidebar handler = {this.handler.bind(this)}  currentPage={this.state.currentPage}/>
                     </div>
                     <div className="container-flex">
-                        <AppContainer currentPage={this.state.currentPage}/>
+                        <AppContainer handler = {this.handler.bind(this)} currentPage={this.state.currentPage}/>
                     </div>
                 </div>
             </div>

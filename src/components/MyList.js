@@ -51,21 +51,35 @@ class MyList extends Component {
             return <li key={ index }>{name}</li>;
           })}
         </ul>)
+    }, {
+      Header: '',
+      accessor: 'title',
+      Cell: row => <button type="button" className="btn btn-primary"
+                    onClick={ this.props.listStatusToggler.bind(this, row.value)}>Remove from List</button>,
+      sortable: false,
     }];
 
     let defaultFilterMethod = (filter, row, column) => {
       const id = filter.pivotId || filter.id
       return row[id] !== undefined ? String(row[id]).toLowerCase().startsWith(filter.value.toLowerCase()) : true
     }
-    
+    let results = data.length === 0? <p>There's nothing on your List! Click "Add a Show/Movie" to add to your list</p>:
+      <ReactTable
+      noDataText="Oh Noes!"
+      className="-highlight"
+      data={data}
+      columns={columns} 
+      minRows={1}
+      showPagination={false}
+      defaultFilterMethod={defaultFilterMethod}/>;
     return (
       <div className="MyList">
         <header className="MyList-header">
-          <h1 className="App-title">MyList</h1>
+          <h1 className="App-title">My List</h1>
         </header>
         <div className="row">
           <div className="col-sm-4 control-group">
-            <button className="btn btn-primary">
+            <button className="btn btn-primary" onClick={this.props.handler.bind(this, {currentPage: 'searchPage'})}>
               Add a Show/Movie
             </button>
           </div>
@@ -76,12 +90,17 @@ class MyList extends Component {
           </div>
         </div>
         <ReactTable
-          className="-highlight"
-          data={data}
-          columns={columns} 
-          minRows={1}
-          showPagination={false}
-          defaultFilterMethod={defaultFilterMethod}/>
+      noDataText={"There's nothing on your List! Click \"Add a Show/Movie\" to add to your list"}
+      className="-highlight"
+      data={data}
+      columns={columns} 
+      minRows={1}
+      showPagination={false}
+      defaultPageSize={10}
+      defaultFilterMethod={defaultFilterMethod}
+      style={{
+        height: "80vh"
+      }}/>
       </div>
     );
   }
@@ -90,7 +109,6 @@ class MyList extends Component {
     var list = [];
     let i = 1;
     this.props.listItems.forEach((item)=>{
-      console.log(item.onMyList);
       if(item.onMyList){
       list.push({
         number: i,
@@ -100,7 +118,7 @@ class MyList extends Component {
         globalScore: item.globalScore,
         friendScore: item.friendScore,
         type: item.type,
-        genres: item.genres
+        genres: item.genres,
       });
       i++;
     }
