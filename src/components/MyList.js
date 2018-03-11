@@ -54,7 +54,7 @@ class MyList extends Component {
         </ul>)
     }, {
       Header: '',
-      accessor: 'title',
+      accessor: 'imageAndTitle.title',
       Cell: row => <button type="button" className="btn btn-primary"
                     onClick={ this.props.listStatusToggler.bind(this, row.value)}>Remove from List</button>,
       sortable: false,
