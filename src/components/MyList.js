@@ -90,17 +90,21 @@ class MyList extends Component {
           </div>
         </div>
         <ReactTable
-      noDataText={"There's nothing on your List! Click \"Add a Show/Movie\" to add to your list"}
-      className="-highlight"
-      data={data}
-      columns={columns} 
-      minRows={1}
-      showPagination={false}
-      defaultPageSize={10}
-      defaultFilterMethod={defaultFilterMethod}
-      style={{
-        height: "80vh"
-      }}/>
+          noDataText={"There's nothing on your List! Click \"Add a Show/Movie\" to add to your list"}
+          className="-highlight"
+          data={data}
+          columns={columns} 
+          minRows={1}
+          showPagination={false}
+          defaultPageSize={10}
+          defaultFilterMethod={defaultFilterMethod}
+          style={{
+            height: "80vh" 
+          }}
+          filtered={[{
+            id: 'type',
+            value: this.props.mediaFilter
+          }]}/>
       </div>
     );
   }
@@ -110,19 +114,21 @@ class MyList extends Component {
     let i = 1;
     this.props.listItems.forEach((item)=>{
       if(item.onMyList){
-      list.push({
-        number: i,
-        image: item.image,
-        title: item.title,
-        myScore: item.myScore,
-        globalScore: item.globalScore,
-        friendScore: item.friendScore,
-        type: item.type,
-        genres: item.genres,
-      });
+        list.push({
+          number: i,
+          image: item.image,
+          title: item.title,
+          myScore: item.myScore,
+          globalScore: item.globalScore,
+          friendScore: item.friendScore,
+          type: item.type,
+          genres: item.genres,
+        });
       i++;
-    }
+      }
     });
+    if(this.props.mediaFilter !== "")
+      list = list.filter(item => item.type===this.props.mediaFilter);
     return list;
   }
 
@@ -139,5 +145,6 @@ MyList.defaultState = {
 
 MyList.defaultProps = {
   listItems: [],
+  mediaFilter: ""
 }
 export default MyList;

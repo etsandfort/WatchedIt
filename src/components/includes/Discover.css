@@ -20,6 +20,7 @@
 .Discover-Tab-Option{
 	float: left;
 	width: 25%;
+	cursor: pointer;
 }
 
 .flex-container {

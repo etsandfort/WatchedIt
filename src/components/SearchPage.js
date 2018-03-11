@@ -55,7 +55,7 @@ class SearchPage extends Component {
       <div className="flex-container">
       <div className="searchPage-content">
       <form>
-        <input type="text" name="search" placeholder="Search.."
+        <input type="text" name="search" placeholder="Search..."
          value={this.state.inputValue} onChange={evt => this.updateInputValue(evt)} autoFocus="true"/>
       </form>
         {results}
