@@ -9,7 +9,6 @@ class App extends Component {
         this.handler = this.handler.bind(this);
         this.state = {
             currentPage: "discover",
-            currentlyViewingShow: ''
         }
     }
 
@@ -25,8 +24,7 @@ class App extends Component {
                         <Sidebar handler = {this.handler.bind(this)}  currentPage={this.state.currentPage}/>
                     </div>
                     <div className="container-flex">
-                        <AppContainer handler = {this.handler.bind(this)} currentPage={this.state.currentPage} 
-                            currentlyViewingShow={this.state.currentlyViewingShow}/>
+                        <AppContainer handler = {this.handler.bind(this)} currentPage={this.state.currentPage}/>
                     </div>
                 </div>
             </div>

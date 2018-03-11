@@ -43,7 +43,7 @@ class SearchPage extends Component {
       data={data}
       columns={columns} 
       minRows={1}
-      defaultPageSize={this.props.listItems.length}
+      tdStyle={ { whiteSpace: 'normal' } }
       showPagination={false}
       defaultPageSize={10}
       style={{

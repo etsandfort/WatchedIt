@@ -13,9 +13,13 @@ ul {
 
 .ReactTable {
     background: #222;
+  
 }
 
+.rt-td{
+    white-space: normal!important;
+}
 img{
-	height: 200px;
-	width: 140px;
+	height: 143px;
+	width: 100px;
 }

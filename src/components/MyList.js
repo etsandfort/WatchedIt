@@ -63,15 +63,6 @@ class MyList extends Component {
       const id = filter.pivotId || filter.id
       return row[id] !== undefined ? String(row[id]).toLowerCase().startsWith(filter.value.toLowerCase()) : true
     }
-    let results = data.length === 0? <p>There's nothing on your List! Click "Add a Show/Movie" to add to your list</p>:
-      <ReactTable
-      noDataText="Oh Noes!"
-      className="-highlight"
-      data={data}
-      columns={columns} 
-      minRows={1}
-      showPagination={false}
-      defaultFilterMethod={defaultFilterMethod}/>;
     return (
       <div className="MyList">
         <header className="MyList-header">

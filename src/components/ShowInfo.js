@@ -1,29 +1,39 @@
 import React, { Component } from 'react';
-import poster from '../images/KungFury.jpg';
 import './includes/ShowInfo.css';
 
 class ShowInfo extends Component {
 
     listReviews(){
         let reviews = [];
+        let reviewers = [];
         for(var i = 0; i<this.props.showInfo.reviews.length; i++){
             reviews.push(
-            <div>
-                <tr className="space-above">
-                    <td><b>{this.props.showInfo.reviewers[i]}</b></td>
-                </tr>
-                <tr>
+                <tr key={i+"review"}>
                     <td>
                         {this.props.showInfo.reviews[i]}
                     </td>
-                </tr>
-            </div>);
+                </tr>);
         }
-            
-        return reviews;
+
+        for(i = 0; i<this.props.showInfo.reviewers.length; i++){
+            reviewers.push(
+                <tr className="space-above" key={i+"reviewer"}>
+                <   td><b>{this.props.showInfo.reviewers[i]}</b></td>
+                </tr>);
+        }
+        
+        let ret = [];
+        for(i = 0; i<this.props.showInfo.reviewers.length; i++){
+            ret.push(reviewers[i]);
+            ret.push(reviews[i]);
+        }
+        
+        return ret;
     }
 
     render() {
+        let reviews = this.listReviews();
+        let buttonText = this.props.showInfo.onMyList? "Remove from List" : "Add to List";
         return (
             <div className="flex-container">
                 <div className="quick-info">
@@ -48,7 +58,7 @@ class ShowInfo extends Component {
                             </tr>
                         </tbody>
                     </table>
-					<button type="button" className="btn btn-primary btn-md">+ Add to List</button>
+					<button type="button" className="btn btn-primary btn-md" onClick={ this.props.listStatusToggler.bind(this, this.props.showInfo.title)}>{buttonText}</button>
                 </div>
                 <div className="movie-info">
                     <h2>{this.props.showInfo.title} ({this.props.showInfo.year})</h2>
@@ -59,20 +69,7 @@ class ShowInfo extends Component {
                     <h5>User Reviews</h5>
                     <table className="user-review-table">
                         <tbody>
-                            {this.listReviews.bind(this)}
-							<tr className="space-above">
-								<td><b>Viktor Ingemarsson</b></td>
-							</tr>
-							<tr>
-								<td>
-									It had long since come to my attention that people of accomplishment rarely sat back and let things happen to them. 
-									They went out and happened to things. Its just a really cool short movie that take you back to the amazing 80:s. 
-									I do remember that time and some things you just wanna have back. The music, the early electronics etc etc.. The story 
-									and the visuals in this movie is groundbreaking! Never have it been a short movie with this tight storyline. When it starts, 
-									its on, O yes! 100% Kung Fu, 100% viking power, 100% unimaginable sounds and 100% one of the strangest short movies of all time. 
-									So give yourself a 30min of time and see this master piece!
-								</td>
-							</tr>
+                            {reviews}
                         </tbody>
                     </table>
                 </div>
