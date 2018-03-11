@@ -54,7 +54,7 @@
     "friendScore": 8.8,
     "type": "TV",
     "genres": ["Comedy"],
-    "onMyList": false,
+    "onMyList": true,
     "rating": "TV-MA",
     "year": 2014,
     "synopsis": "In the high-tech gold rush of modern Silicon Valley, the people most qualified to succeed are the least capable of handling success. A comedy partially inspired by Mike Judge's own experiences as a Silicon Valley engineer in the late 1980s.",

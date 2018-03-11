@@ -57,7 +57,7 @@ class MyList extends Component {
       Header: '',
       accessor: 'imageAndTitle.title',
       Cell: row => <button type="button" className="btn btn-primary"
-                    onClick={ this.props.listStatusToggler.bind(this, row.value)}>Remove from List</button>,
+                    onClick={ this.props.listStatusToggler.bind(this, row.value)}>Remove</button>,
       sortable: false,
     }];
 
