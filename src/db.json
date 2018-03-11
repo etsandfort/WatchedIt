@@ -6,7 +6,12 @@
     "friendScore": 9.5,
     "type": "Movie",
     "genres": ["Sci-Fi", "Fantasy"],
-    "onMyList": false
+    "onMyList": false,
+    "rating": "PG-13",
+    "synopsis": "In Coruscant, the Jedi Obi-Wan Kenobi and Anakin Skywalker rescue the Supreme Chancellor Palpatine from the Separatist General Grievous' spaceship and Anakin kills Count Dooku with his light-saber after a fight; however Grievous escapes from the Jedi. When they land on Coruscant, Padmé Amidala comes to tell Anakin that she is pregnant. Soon he has premonitions of his wife dying during the delivery. Palpatine requests that Anakin join the Jedi Council against the will of the members but he is not promoted to Master and stays at the rank of Knight; further they ask him to spy on Palpatine. Anakin is manipulated by Palpatine about the true intentions of the Jedi and is tempted to know the dark side of the Force that could be capable of saving Padmé. Further Palpatine discloses that he is Sith Lord Darth Sidious. What will Anakin do?",
+    "reviewers": ["Hyrum Romrell", "hanneskruppa"],
+    "reviews": ["I personally am more of a fan of the original trilogy than what I have been of the prequels. Although I did enjoy TPM, and AOTC, they definitely were not as well done as A New Hope or Empire. I think the general criticisms of the first two prequels was lack of good story, and poor acting. First I would like to say that the acting is much better in Revenge of the Sith than the first two prequels, but what truly stood out in this movie was the story. It was delivered perfectly, for the first time since Empire, Lucas connected emotionally with his audience. The last hour of the movie was especially powerful. Although probably not planned, I think this movie will be the bridge that brings the old star wars sheep back into the fold. Just as Anakin eventually brings balance to the force, Revenge of the Sith will bring balance back to the Star Wars Universe. And judging by the reaction of the test audience I was part of, everyone I was with feels the same way, no one left their seat for at least a couple minutes after the movie ended.",
+    "i loved star wars as a kid. i grew disenchanted with the new trilogy. i was prepared for another letdown. i was surprised to see that things really come together. 'sith' has a coherent story, well told, well paced. the movie is full of fireworks, but they always support the progression of the story, nothing felt unnecessary like some stuff in the earlier episodes. the characters were all solid. some were even great. there were quiet, slow paced moments that made sense, felt right. the transformation of the characters came across well. the conflicts are complex, personalities are multifaceted. this movie carries a lot more weight than episodes 1 and 2. not everyone will be happy. there are weak moments, there is wooden dialog, there's cheesy romance. nevertheless, for most of the audience, even non hard-core star wars believers, this movie works. it's great entertainment, and it ties in very well with episodes 4-6. the sense of disconnect that people felt with episodes 1 and 2 is gone. you will want to go home and watch 'a new hope' right after seeing 'revenge of the sith'."]
   },
   {
     "image": "images/yugiohdsd.jpg",
@@ -16,7 +21,12 @@
     "friendScore": 10,
     "type": "Movie",
     "genres": ["Fantasy"],
-    "onMyList": false
+    "onMyList": false,
+    "rating": "PG",
+    "synopsis": "Yugi and Kaiba have a special duel that transcends dimensions.",
+    "reviewers": ["LugiaForeteller", "notbogdy"],
+    "reviews": ["Without a doubt my favorite thing about this Movie is it brought all the previous voice actors back together to what I consider a wonderful conclusion to the Original Yugioh Franchise. Was it absolutely astonishing? No, not by a mile. But I must admit this movie had a ton of fan-service that always makes me happy to see. Of course this movie isn't for everyone but that doesn't mean it's a fun experience. It's actually much more mature than I actually expected which in my ideal that is pretty nice, especially for long time fans. It's very nicely animated as well, and always a treat is that I think they did a immensely wonderful performance with all the Characters. Sure some fall apart but I think Dan Green did a wonderful job as Yugi Moto again. Of course all speculating of how I think they did a great job, I would say the only flop of this film is it's more directed to the fans, though that doesn't mean you can't get into it. It's plentiful with wonderful characters, unique backstories, and amazing performances. This is defiantly a watch for anybody interested!",
+    "The thing I can tell you for sure is this: I want more of this. This movie was amazing and it ignited something long forgotten from my childhood in me. This movie is all what gaming is about, and no other series does it better. While it was made to be with more advanced game-play, and not for newer players, it took a risk in being more inclined to a specific audience. And that for me is worth a 10 start in itself. Nowdays movies try to please everyone, and please no one, but they knew their fan-base and gave them something they needed. Also, they nailed it with the quantity and quality. This movies has a lot of content that could peak your interest. I really missed this series and now it proved that, the author's success is well deserved."]
   },
   {
     "image": "images/jojo.jpg",
@@ -26,7 +36,12 @@
     "friendScore": 9.8,
     "type": "TV",
     "genres": ["Adventure", "Documentary"],
-    "onMyList": true
+    "onMyList": true,
+    "rating": "N/A",
+    "synopsis": "SYNOPSIS HERE",
+    "reviewers": ["NAME1 HERE", "NAME2 HERE"],
+    "reviews": ["REVIEW ONE HERE",
+    "REVIEW TWO HERE"]
   },
   {
     "image": "images/starwars4.jpg",
@@ -36,7 +51,12 @@
     "friendScore": 7.8,
     "type": "Movie",
     "genres": ["Sci-Fi", "Fantasy"],
-    "onMyList": false
+    "onMyList": false,
+    "rating": "N/A",
+    "synopsis": "SYNOPSIS HERE",
+    "reviewers": ["NAME1 HERE", "NAME2 HERE"],
+    "reviews": ["REVIEW ONE HERE",
+    "REVIEW TWO HERE"]
   },
   {
     "image": "images/starwars5.jpg",
@@ -46,7 +66,12 @@
     "friendScore": 8.8,
     "type": "Movie",
     "genres": ["Sci-Fi", "Fantasy"],
-    "onMyList": false
+    "onMyList": false,
+    "rating": "N/A",
+    "synopsis": "SYNOPSIS HERE",
+    "reviewers": ["NAME1 HERE", "NAME2 HERE"],
+    "reviews": ["REVIEW ONE HERE",
+    "REVIEW TWO HERE"]
   },
   {
     "image": "images/starwars6.jpg",
@@ -56,7 +81,12 @@
     "friendScore": 7.8,
     "type": "Movie",
     "genres": ["Sci-Fi", "Fantasy"],
-    "onMyList": false
+    "onMyList": false,
+    "rating": "N/A",
+    "synopsis": "SYNOPSIS HERE",
+    "reviewers": ["NAME1 HERE", "NAME2 HERE"],
+    "reviews": ["REVIEW ONE HERE",
+    "REVIEW TWO HERE"]
   },
   {
     "image": "images/starwars1.jpg",
@@ -66,7 +96,12 @@
     "friendScore": 6.8,
     "type": "Movie",
     "genres": ["Sci-Fi", "Fantasy"],
-    "onMyList": false
+    "onMyList": false,
+    "rating": "N/A",
+    "synopsis": "SYNOPSIS HERE",
+    "reviewers": ["NAME1 HERE", "NAME2 HERE"],
+    "reviews": ["REVIEW ONE HERE",
+    "REVIEW TWO HERE"]
   },
   {
     "image": "images/starwars2.jpg",
@@ -76,7 +111,12 @@
     "friendScore": 6.0,
     "type": "Movie",
     "genres": ["Sci-Fi", "Fantasy"],
-    "onMyList": false
+    "onMyList": false,
+    "rating": "N/A",
+    "synopsis": "SYNOPSIS HERE",
+    "reviewers": ["NAME1 HERE", "NAME2 HERE"],
+    "reviews": ["REVIEW ONE HERE",
+    "REVIEW TWO HERE"]
   },
   {
     "image": "images/notebook.jpg",
@@ -86,7 +126,12 @@
     "friendScore": 7.8,
     "type": "Movie",
     "genres": ["Romance", "Drama"],
-    "onMyList": false
+    "onMyList": false,
+    "rating": "N/A",
+    "synopsis": "SYNOPSIS HERE",
+    "reviewers": ["NAME1 HERE", "NAME2 HERE"],
+    "reviews": ["REVIEW ONE HERE",
+    "REVIEW TWO HERE"]
   },
   {
     "image": "images/shapeofwater.jpg",
@@ -96,7 +141,12 @@
     "friendScore": 7.8,
     "type": "Movie",
     "genres": ["Drama","Romance"],
-    "onMyList": false
+    "onMyList": false,
+    "rating": "N/A",
+    "synopsis": "SYNOPSIS HERE",
+    "reviewers": ["NAME1 HERE", "NAME2 HERE"],
+    "reviews": ["REVIEW ONE HERE",
+    "REVIEW TWO HERE"]
   },
   {
     "image": "images/greysanatomy.jpg",
@@ -106,7 +156,12 @@
     "friendScore": 7.7,
     "type": "TV",
     "genres": ["Drama", "Romance"],
-    "onMyList": false
+    "onMyList": false,
+    "rating": "N/A",
+    "synopsis": "SYNOPSIS HERE",
+    "reviewers": ["NAME1 HERE", "NAME2 HERE"],
+    "reviews": ["REVIEW ONE HERE",
+    "REVIEW TWO HERE"]
   },
   {
     "image": "images/er.jpg",
@@ -116,7 +171,12 @@
     "friendScore": 7.0,
     "type": "TV",
     "genres": ["Drama", "Romance"],
-    "onMyList": false
+    "onMyList": false,
+    "rating": "N/A",
+    "synopsis": "SYNOPSIS HERE",
+    "reviewers": ["NAME1 HERE", "NAME2 HERE"],
+    "reviews": ["REVIEW ONE HERE",
+    "REVIEW TWO HERE"]
   },
   {
     "image": "images/gossipgirl.jpg",
@@ -126,7 +186,12 @@
     "friendScore": 7.8,
     "type": "TV",
     "genres": ["Drama", "Romance"],
-    "onMyList": false
+    "onMyList": false,
+    "rating": "N/A",
+    "synopsis": "SYNOPSIS HERE",
+    "reviewers": ["NAME1 HERE", "NAME2 HERE"],
+    "reviews": ["REVIEW ONE HERE",
+    "REVIEW TWO HERE"]
   },
   {
     "image": "images/titanic.jpg",
@@ -136,7 +201,12 @@
     "friendScore": 9,
     "type": "Movie",
     "genres": ["Drama", "Romance"],
-    "onMyList": false
+    "onMyList": false,
+    "rating": "N/A",
+    "synopsis": "SYNOPSIS HERE",
+    "reviewers": ["NAME1 HERE", "NAME2 HERE"],
+    "reviews": ["REVIEW ONE HERE",
+    "REVIEW TWO HERE"]
   },
   {
     "image": "images/thebigsick.jpg",
@@ -146,7 +216,12 @@
     "friendScore": 9,
     "type": "Movie",
     "genres": ["Comedy", "Drama", "Romance"],
-    "onMyList": false
+    "onMyList": false,
+    "rating": "N/A",
+    "synopsis": "SYNOPSIS HERE",
+    "reviewers": ["NAME1 HERE", "NAME2 HERE"],
+    "reviews": ["REVIEW ONE HERE",
+    "REVIEW TWO HERE"]
   },
   {
     "image": "images/themountainbetweenus.jpg",
@@ -156,7 +231,12 @@
     "friendScore": 9,
     "type": "Movie",
     "genres": ["Action", "Adventure", "Drama"],
-    "onMyList": false
+    "onMyList": false,
+    "rating": "N/A",
+    "synopsis": "SYNOPSIS HERE",
+    "reviewers": ["NAME1 HERE", "NAME2 HERE"],
+    "reviews": ["REVIEW ONE HERE",
+    "REVIEW TWO HERE"]
   },
   {
     "image": "images/coco.jpg",
@@ -166,7 +246,12 @@
     "friendScore": 8.8,
     "type": "Movie",
     "genres": ["Comedy", "Adventure"],
-    "onMyList": false
+    "onMyList": false,
+    "rating": "N/A",
+    "synopsis": "SYNOPSIS HERE",
+    "reviewers": ["NAME1 HERE", "NAME2 HERE"],
+    "reviews": ["REVIEW ONE HERE",
+    "REVIEW TWO HERE"]
   },
   {
     "image": "images/getout.jpg",
@@ -176,7 +261,12 @@
     "friendScore": 8.0,
     "type": "Movie",
     "genres": ["Horror", "Mystery"],
-    "onMyList": false
+    "onMyList": false,
+    "rating": "N/A",
+    "synopsis": "SYNOPSIS HERE",
+    "reviewers": ["NAME1 HERE", "NAME2 HERE"],
+    "reviews": ["REVIEW ONE HERE",
+    "REVIEW TWO HERE"]
   },
   {
     "image": "images/criminalminds.jpg",
@@ -186,7 +276,12 @@
     "friendScore": 7.8,
     "type": "TV",
     "genres": ["Mystery", "Drama"],
-    "onMyList": false
+    "onMyList": false,
+    "rating": "N/A",
+    "synopsis": "SYNOPSIS HERE",
+    "reviewers": ["NAME1 HERE", "NAME2 HERE"],
+    "reviews": ["REVIEW ONE HERE",
+    "REVIEW TWO HERE"]
   },
   {
     "image": "images/cloverfieldparadox.jpg",
@@ -196,7 +291,12 @@
     "friendScore": 5.3,
     "type": "Movie",
     "genres": ["Mystery", "Horror"],
-    "onMyList": false
+    "onMyList": false,
+    "rating": "N/A",
+    "synopsis": "SYNOPSIS HERE",
+    "reviewers": ["NAME1 HERE", "NAME2 HERE"],
+    "reviews": ["REVIEW ONE HERE",
+    "REVIEW TWO HERE"]
   },
   {
     "image": "images/batesmotel.jpg",
@@ -206,7 +306,12 @@
     "friendScore": 8.3,
     "type": "TV",
     "genres": ["Mystery", "Horror"],
-    "onMyList": false
+    "onMyList": false,
+    "rating": "N/A",
+    "synopsis": "SYNOPSIS HERE",
+    "reviewers": ["NAME1 HERE", "NAME2 HERE"],
+    "reviews": ["REVIEW ONE HERE",
+    "REVIEW TWO HERE"]
   },
   {
     "image": "images/psych.jpg",
@@ -216,7 +321,12 @@
     "friendScore": 8.3,
     "type": "TV",
     "genres": ["Mystery", "Comedy"],
-    "onMyList": false
+    "onMyList": false,
+    "rating": "N/A",
+    "synopsis": "SYNOPSIS HERE",
+    "reviewers": ["NAME1 HERE", "NAME2 HERE"],
+    "reviews": ["REVIEW ONE HERE",
+    "REVIEW TWO HERE"]
   },
   {
     "image": "images/lost.jpg",
@@ -226,7 +336,12 @@
     "friendScore": 8.5,
     "type": "TV",
     "genres": ["Mystery", "Adventure"],
-    "onMyList": false
+    "onMyList": false,
+    "rating": "N/A",
+    "synopsis": "SYNOPSIS HERE",
+    "reviewers": ["NAME1 HERE", "NAME2 HERE"],
+    "reviews": ["REVIEW ONE HERE",
+    "REVIEW TWO HERE"]
   },
   {
     "image": "images/thefastandthefurious.jpg",
@@ -236,7 +351,12 @@
     "friendScore": 6.0,
     "type": "Movie",
     "genres": ["Action"],
-    "onMyList": false
+    "onMyList": false,
+    "rating": "N/A",
+    "synopsis": "SYNOPSIS HERE",
+    "reviewers": ["NAME1 HERE", "NAME2 HERE"],
+    "reviews": ["REVIEW ONE HERE",
+    "REVIEW TWO HERE"]
   },
   {
     "image": "images/2fast2furious.jpg",
@@ -246,7 +366,12 @@
     "friendScore": 6.0,
     "type": "Movie",
     "genres": ["Action"],
-    "onMyList": false
+    "onMyList": false,
+    "rating": "N/A",
+    "synopsis": "SYNOPSIS HERE",
+    "reviewers": ["NAME1 HERE", "NAME2 HERE"],
+    "reviews": ["REVIEW ONE HERE",
+    "REVIEW TWO HERE"]
   },
   {
     "image": "images/xXx.jpg",
@@ -256,7 +381,12 @@
     "friendScore": 10,
     "type": "Movie",
     "genres": ["Action", "Adventure"],
-    "onMyList": false
+    "onMyList": false,
+    "rating": "N/A",
+    "synopsis": "SYNOPSIS HERE",
+    "reviewers": ["NAME1 HERE", "NAME2 HERE"],
+    "reviews": ["REVIEW ONE HERE",
+    "REVIEW TWO HERE"]
   },
   {
     "image": "images/blackpanther.jpg",
@@ -266,7 +396,12 @@
     "friendScore": 8.0,
     "type": "Movie",
     "genres": ["Action", "Adventure"],
-    "onMyList": false
+    "onMyList": false,
+    "rating": "N/A",
+    "synopsis": "SYNOPSIS HERE",
+    "reviewers": ["NAME1 HERE", "NAME2 HERE"],
+    "reviews": ["REVIEW ONE HERE",
+    "REVIEW TWO HERE"]
   },
   {
     "image": "images/jiro.jpg",
@@ -276,7 +411,12 @@
     "friendScore": 8.0,
     "type": "Movie",
     "genres": ["Documentary"],
-    "onMyList": false
+    "onMyList": false,
+    "rating": "N/A",
+    "synopsis": "SYNOPSIS HERE",
+    "reviewers": ["NAME1 HERE", "NAME2 HERE"],
+    "reviews": ["REVIEW ONE HERE",
+    "REVIEW TWO HERE"]
   },
   {
     "image": "images/blueplanet.jpg",
@@ -286,7 +426,12 @@
     "friendScore": 8.8,
     "type": "TV",
     "genres": ["Documentary"],
-    "onMyList": false
+    "onMyList": false,
+    "rating": "N/A",
+    "synopsis": "SYNOPSIS HERE",
+    "reviewers": ["NAME1 HERE", "NAME2 HERE"],
+    "reviews": ["REVIEW ONE HERE",
+    "REVIEW TWO HERE"]
   },
   {
     "image": "images/planetearth.jpg",
@@ -296,7 +441,12 @@
     "friendScore": 9.3,
     "type": "TV",
     "genres": ["Documentary"],
-    "onMyList": false
+    "onMyList": false,
+    "rating": "N/A",
+    "synopsis": "SYNOPSIS HERE",
+    "reviewers": ["NAME1 HERE", "NAME2 HERE"],
+    "reviews": ["REVIEW ONE HERE",
+    "REVIEW TWO HERE"]
   },
   {
     "image": "images/giftshop.jpg",
@@ -306,7 +456,12 @@
     "friendScore": 8.0,
     "type": "Movie",
     "genres": ["Documentary", "Comedy"],
-    "onMyList": false
+    "onMyList": false,
+    "rating": "N/A",
+    "synopsis": "SYNOPSIS HERE",
+    "reviewers": ["NAME1 HERE", "NAME2 HERE"],
+    "reviews": ["REVIEW ONE HERE",
+    "REVIEW TWO HERE"]
   },
   {
     "image": "images/health.jpg",
@@ -316,7 +471,12 @@
     "friendScore": 8.1,
     "type": "Movie",
     "genres": ["Documentary"],
-    "onMyList": false
+    "onMyList": false,
+    "rating": "N/A",
+    "synopsis": "SYNOPSIS HERE",
+    "reviewers": ["NAME1 HERE", "NAME2 HERE"],
+    "reviews": ["REVIEW ONE HERE",
+    "REVIEW TWO HERE"]
   },
   {
     "image": "images/hotfuzz.jpg",
@@ -326,7 +486,12 @@
     "friendScore": 8.1,
     "type": "Movie",
     "genres": ["Action","Comedy"],
-    "onMyList": false
+    "onMyList": false,
+    "rating": "N/A",
+    "synopsis": "SYNOPSIS HERE",
+    "reviewers": ["NAME1 HERE", "NAME2 HERE"],
+    "reviews": ["REVIEW ONE HERE",
+    "REVIEW TWO HERE"]
   },
   {
     "image": "images/21jumpstreet.jpg",
@@ -336,7 +501,12 @@
     "friendScore": 7.1,
     "type": "Movie",
     "genres": ["Action","Comedy"],
-    "onMyList": false
+    "onMyList": false,
+    "rating": "N/A",
+    "synopsis": "SYNOPSIS HERE",
+    "reviewers": ["NAME1 HERE", "NAME2 HERE"],
+    "reviews": ["REVIEW ONE HERE",
+    "REVIEW TWO HERE"]
   },
   {
     "image": "images/halloween.jpg",
@@ -346,7 +516,12 @@
     "friendScore": 7.1,
     "type": "Movie",
     "genres": ["Horror"],
-    "onMyList": false
+    "onMyList": false,
+    "rating": "N/A",
+    "synopsis": "SYNOPSIS HERE",
+    "reviewers": ["NAME1 HERE", "NAME2 HERE"],
+    "reviews": ["REVIEW ONE HERE",
+    "REVIEW TWO HERE"]
   },
   {
     "image": "images/conjuring.jpg",
@@ -356,7 +531,12 @@
     "friendScore": 7.0,
     "type": "Movie",
     "genres": ["Horror"],
-    "onMyList": false
+    "onMyList": false,
+    "rating": "N/A",
+    "synopsis": "SYNOPSIS HERE",
+    "reviewers": ["NAME1 HERE", "NAME2 HERE"],
+    "reviews": ["REVIEW ONE HERE",
+    "REVIEW TWO HERE"]
   },
   {
     "image": "images/shining.jpg",
@@ -366,6 +546,11 @@
     "friendScore": 8.3,
     "type": "Movie",
     "genres": ["Horror"],
-    "onMyList": false
+    "onMyList": false,
+    "rating": "N/A",
+    "synopsis": "SYNOPSIS HERE",
+    "reviewers": ["NAME1 HERE", "NAME2 HERE"],
+    "reviews": ["REVIEW ONE HERE",
+    "REVIEW TWO HERE"]
   }
 ]
