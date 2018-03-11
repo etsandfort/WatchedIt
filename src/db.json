@@ -311,12 +311,12 @@
     "type": "TV",
     "genres": ["Mystery", "Drama"],
     "onMyList": false,
-    "rating": "N/A",
-    "year": 1000,
-    "synopsis": "SYNOPSIS HERE",
-    "reviewers": ["NAME1 HERE", "NAME2 HERE"],
-    "reviews": ["REVIEW ONE HERE",
-    "REVIEW TWO HERE"]
+    "rating": "TV-14",
+    "year": 2005,
+    "synopsis": "Based in Quantico, Virginia, the Behavioral Analysis Unit (BAU) is a subsection of the FBI. Called in by local police departments to assist in solving crimes of a serial and/or extremely violent nature where the perpetrator is unknown (referred to by the Unit as the unknown subject or unsub for short), the BAU uses the controversial scientific art of profiling to track and apprehend the unsub. Profiling entails coming up with basic characteristics of the unsub and the victims (referred to as the victimology), using evidence from the case and matching that information to historic precedents and psychological analyses as a means to solve the case. Because of the nature of the work conducted by the BAU - the work being time consuming and psychologically demanding - its members are fiercely loyal to the Unit and to its other members. Also because of the work's overall demanding nature, not many members of the BAU have been able to maintain a happy or stable family life.",
+    "reviewers": ["hippo_butt2000", "dmartin-46"],
+    "reviews": ["Truly a great series worthy of praise. Many may say that this is a 'rip-off' of CSI but I've watched CSI and it caught me on for a bit, but after a while it just seemed to closed. Where CSI guides you through the story and gives a picture perfect ending and how you're supposed to perceive it, Criminal Minds lets you explore and judge for yourself. It doesn't preach too much and the stories are engaging and suspenseful! Excellent writing and great performances from the stars. It may begin cliché, but if you stay long enough it is a rewarding and entertaining view, and I don't feel it's going to let down any time soon. Give it a chance, or just watch episode 7 'The Fox'. It shows the best writing and acting in the show so far, in my opinion. Diving into minds of lunatics and psychopaths has never been more entertaining! Fantastic!",
+    "This is a quality programme, I found it a few weeks ago it was on after CSI Vegas and myself and the girlfriend decided we would give it ago, After all variety is the spice of life. Within ten minutes we were hooked the cast is so well assembled we especially love Dr Spencer Reid, He is comes a cross like a real nervous geek, In his own words he looks like a teaching assistant. I think the stories are very well thought out, and the acting is super. I never thought I could take Thomas Gibson as a serious actor after Darma and Greg. But I think he is so good in this, You can almost hear his brain ticking over as he mulls over any given situation. As for the rest they all gel so well together. This programme will raise the tension so high within the first ten minutes and will leave you hanging of the edge of the edge of your seat until the last very moment. It's amazing. This programme has definitely made it into my must watch TV schedule along with the CSI franchise Cold Case and Law and Order SVU."]
   },
   {
     "image": "images/cloverfieldparadox.jpg",
@@ -327,12 +327,12 @@
     "type": "Movie",
     "genres": ["Mystery", "Horror"],
     "onMyList": false,
-    "rating": "N/A",
-    "year": 1000,
-    "synopsis": "SYNOPSIS HERE",
-    "reviewers": ["NAME1 HERE", "NAME2 HERE"],
-    "reviews": ["REVIEW ONE HERE",
-    "REVIEW TWO HERE"]
+    "rating": "TV-MA",
+    "year": 2018,
+    "synopsis": "In the near future, there is an energy crisis on Earth. The Cloverfield Station with a multinational crew will test the Shepard particle accelerator expecting to generate energy for all countries solving the energy problem. However, the experiment goes wrong, damages the station and opens a portal to another dimension with a parallel Earth. They also find a woman entwined with wires behind a bulkhead of the station and they learn she worked in an identical Cloverfield Station in another dimension. Now the scientists need to find a way to return to their own dimension.",
+    "reviewers": ["saccitygrl", "johnsandy-94349"],
+    "reviews": ["Well, about 30 minutes in and you realize why Paramount decided to release via Netflix. I don't think anyone who loved cloverfield will be particularly taken by this film. And to those people who felt cloverfield lane was a bait and switch, they will really feel betrayed by this film. The acting in this film is respectable. The effects, set and the like are fine. But the dull plot is not overcome by having a single character to care about.",
+    "When will Hollywood finally look at J.J. Abrams and realise that he isn't wearing any clothes? This is a poorly executed movie. Cliche follows cliche to a point where I felt I was watching a parody, not a paradox. The story is unoriginal and makes so many jarring twists and turns that it quickly becomes a mess. Watching until the end will only make the viewer angry that they aren't watching one of the many, many brilliant science fiction movies that this dreadful flick is 'paying homage' to."]
   },
   {
     "image": "images/batesmotel.jpg",
@@ -343,12 +343,12 @@
     "type": "TV",
     "genres": ["Mystery", "Horror"],
     "onMyList": false,
-    "rating": "N/A",
-    "year": 1000,
-    "synopsis": "SYNOPSIS HERE",
-    "reviewers": ["NAME1 HERE", "NAME2 HERE"],
-    "reviews": ["REVIEW ONE HERE",
-    "REVIEW TWO HERE"]
+    "rating": "TV-MA",
+    "year": 2013,
+    "synopsis": "'Bates Motel' is a contemporary prequel to the genre-defining film 'Psycho,' and gives a portrayal of how Norman Bates' (Freddie Highmore) psyche unravels through his teenage years. Fans discover the dark, twisted backstory of Norman Bates and how deeply intricate his relationship with his mother, Norma (Vera Farmiga), truly is.",
+    "reviewers": ["wildsparrow16", "nicholasdoran6612"],
+    "reviews": ["I really don't have time to be hooked on another TV show, but I'm sucked in. This is very suspenseful - I have not been bored for a moment. I really like the addition of Dylan. He adds some edge to the show, although it's already pretty gripping. I really thought this would just be some gore-fest - it's not (although there are some grisly scenes). It really is intriguing - the family dynamics and characters. I look forward to more. I loved Vera Farmiga in Higher Ground and Orphan - I will check out more of her work. She is very versatile - a fine actress. I am not familiar with the others, but they are pretty awesome, too.",
+    "Now, I had my doubts, for Psycho was one of the best horror movies ever to be made, and making a prequel show could ruin it all. But, my doubts proved to be fortunately wrong. The story centers around young Norman Bates, who's just moved to a small Bay Area town with his mother Norma Bates. It is set in the modern world, so that's why I had to rack a point off, but who cares. It is absolutely amazing. Vera Farmiga and Freddie Highmore lead an all stellar cast into the world of serial murder, cover ups, and horrific betrayal that can only go so unimaginably high. With shocks and gasps, and the kind of suspense that makes you clench your teeth, Bates Motel is definitely a must watch. If you haven't see this show yet, go on to channel 46 and start watching because it will grip you, and it won't let go."]
   },
   {
     "image": "images/psych.jpg",
@@ -359,12 +359,12 @@
     "type": "TV",
     "genres": ["Mystery", "Comedy"],
     "onMyList": false,
-    "rating": "N/A",
-    "year": 1000,
-    "synopsis": "SYNOPSIS HERE",
-    "reviewers": ["NAME1 HERE", "NAME2 HERE"],
-    "reviews": ["REVIEW ONE HERE",
-    "REVIEW TWO HERE"]
+    "rating": "TV-PG",
+    "year": 2006,
+    "synopsis": "Think you are psychic? Shawn Spencer makes his living pretending to be. Shawn and his best friend Gus own a business called Psych. They are able to stay in business only because of the cases they work with Santa Barbara police department as psychics. Shawn and Gus go through many ups and downs trying to keep the ruse up. Can they pretend forever? Or is the world they built going to come crumbling down?",
+    "reviewers": ["dmitrirlc", "Bryan Allen"],
+    "reviews": ["It is unusual to find an intelligent comedy out there in the TV wasteland, but 'Psych' is unusual in many aspects. The writing is quick, intelligent and witty plus the acting is fast-paced and done in an almost believable way even though the premise would be considered far-fetched by some. The storyline does cause the watcher to look at the clues that are given and try to figure out who did what and to whom. James Roday is perfect for the part that he plays, bringing to the part some of the comic timing and zaniness that he showed in 'Repli-Kate', one of his earlier movies. This series shows that he has refined his craft since then. I hope that this series is given the respect and audience that it deserves",
+    "Psych truly is a show for everyone. It's use of sarcasm and witty repartee is hilarious which obviously shows that USA Network knows how to define characters. I love the fact that they rely more on character performance rather than the solving of the crime, because it allows you to know the character and relate to him or her. Knowing a character really gets you involved in their life, whether it be your best friend, or someone on television Friday nights. If you want to fall out of your seat laughing, this show is definitely for you. Next weeks episode 'Spellingg Bee' looks more promising than the premiere, if that's even a possibility. All else we can really do is welcome Psych, because it's obviously here to stay!"]
   },
   {
     "image": "images/lost.jpg",
@@ -375,12 +375,12 @@
     "type": "TV",
     "genres": ["Mystery", "Adventure"],
     "onMyList": false,
-    "rating": "N/A",
-    "year": 1000,
-    "synopsis": "SYNOPSIS HERE",
-    "reviewers": ["NAME1 HERE", "NAME2 HERE"],
-    "reviews": ["REVIEW ONE HERE",
-    "REVIEW TWO HERE"]
+    "rating": "TV-14",
+    "year": 2004,
+    "synopsis": "The past, present, and future lives of surviving Oceanic Flight 815 passengers are dramatically intertwined as a fight for survival ensues in a quest for answers after crashlanding on a mysterious island. Each discovery prompts yet more secrets, as the hastily-formed colony search for a way off the island, or is this their home?",
+    "reviewers": ["lea_ryans", "gluba2000"],
+    "reviews": ["I've watched lots of TV in my lifetime, perhaps too much. However this is the best TV series i've seen in ages. Probably even the best ever. You just can't predict what is going to happen. Each week the show seems to tell you something new about the Island and its inhabitants. I'm on the edge of my seat waiting to find out what's going to happen, then before I know it the programme is finished and I have to wait to find out what happens next. Utterly gripping! This show is amazing and I hope they continue to make it because often fantastic US shows get cancelled because the ratings start to dip slightly or the executives think the shows are too weird. I really hope the series continues so that we get it over here in England because it is a fantastic show and I would like to have DVD's of this series so I can get all my friends hooked too.",
+    "I love this show! It's like watching a mini movie each week!!! The first episode was so gripping and terrifying...so was part 2 of the pilot... I'm definitely gonna keep tuning into this show! This is the real Survivor! I've looked at a few of the other comments and I can see that already after just one or two episodes the morons here are already crying wolf... Sorry if it's not another reality show, kiddies! There was once a time where there were...now brace yourself! Actual TV shows! And this one is actually good unlike most of the crappy sitcoms today or the ump-teenth carbon copy of a Law & Order or NYPD Blue or CSI series they're dishing out... Watch this yourself to form your own opinion, don't take one from the boneheads here!"]
   },
   {
     "image": "images/thefastandthefurious.jpg",
@@ -391,12 +391,12 @@
     "type": "Movie",
     "genres": ["Action"],
     "onMyList": false,
-    "rating": "N/A",
-    "year": 1000,
-    "synopsis": "SYNOPSIS HERE",
-    "reviewers": ["NAME1 HERE", "NAME2 HERE"],
-    "reviews": ["REVIEW ONE HERE",
-    "REVIEW TWO HERE"]
+    "rating": "PG-13",
+    "year": 2001,
+    "synopsis": "Los Angeles street racer Dominic Toretto falls under the suspicion of the LAPD as a string of high-speed electronics truck robberies rocks the area. Brian O'Connor, an officer of the LAPD, joins the ranks of Toretto's highly skilled racing crew undercover to convict Toretto. However, O'Connor finds himself both enamored with this new world and in love with Toretto's sister, Mia. As a rival racing crew gains strength, O'Connor must decide where his loyalty really lies.",
+    "reviewers": ["eskyy10", "PWNYCNY"],
+    "reviews": ["Not only because it was shot at my hometown (Los Angeles CA) but, it has every essence of a great film. This to me is the best movie of all the FF franchise. This movie touches action, love, hate, friendship, adrenaline etc. It has a great storyline to keep you entertain. This movie I believe was very successful not only because during that point during the American culture Auto Tunning was reaching its peak but because of the actors selected. At that time these were not world wide icons and had not been involve in a blockbuster movie that would tattooed their careers in Hollywood. Finally I just want to point out that I am no movie critic or someone who studied in order to criticize a movie, I am simply an average Joe that likes to see all kinds of movies but, specially action movies been The Fast and the Furious my favorite movie of all times. Have to say that my first ever DVD (or movie for that matter) I bought with my own money was this FF movie.",
+    "This is a great movie. Far from being superficial pulp, this movie has a complex plot. Vin Diesel's performance is tremendous; his screen presence is dominating. He succeeds in carrying the movie. Although the movie contains lots of glitz, it also tells a story that deals with themes such as loyalty and betrayal. The rest of the cast is excellent too, especially Jordana Brewster and Paul Walker. Michelle Rodriguez is as usual wonderful. It would be easy to dismiss this movie as being little more than a live action cartoon, but the movie really is full of surprises. It has several intensely dramatic scenes, some of the most incredible car chase scenes, and some deeply esoteric verbal exchanges fraught with emotion. Whether it's Vin Diesel pouting or Paul Walker being heroic, the results are same: nonstop action, intense dialog, and interesting characters, all of which together produce great entertainment. It's more than just about automobiles."]
   },
   {
     "image": "images/2fast2furious.jpg",
@@ -407,12 +407,12 @@
     "type": "Movie",
     "genres": ["Action"],
     "onMyList": false,
-    "rating": "N/A",
-    "year": 1000,
-    "synopsis": "SYNOPSIS HERE",
-    "reviewers": ["NAME1 HERE", "NAME2 HERE"],
-    "reviews": ["REVIEW ONE HERE",
-    "REVIEW TWO HERE"]
+    "rating": "PG-13",
+    "year": 2003,
+    "synopsis": "EX LAPD cop Brian O'Conner (Paul Walker) teams up with his ex-con friend Roman Pearce (Tyrese Gibson) and works with undercover U.S. Customs Service agent Monica Fuentes (Eva Mendes) to bring Miami-based drug lord Carter Verone (Cole Hauser) down.",
+    "reviewers": ["realtobi", "SnakeEclipse1403"],
+    "reviews": ["Nice movie to just lean back, chill and watch hot girls,hot cars and hot action - there is no need of complex story or reality. And the black guy is really funny, so take some friends, some money for popcorn and nachos and chill out ;)",
+    "This one was way better than the first, I don't care what all you other pladough brains say. It had better cars, women, plot, bad guys, and action. You should still watch the first one before you see this, even if it wasn't as good, if you want to get some of the stuff they talk about in this film. As far as the plot goes, it's a lot more interesting than a boring theft of electronic equipment. You're much more rather to watch a movie where the good guys are up against meaner and more dangerous bad guys who really have the thrill of danger in them. Actually only Verone did a good job showing that off, but the rest didn't do bad. Action sequences are what really smoke the original. Finally, a circuit race, and more amounts of races instead of cheesy talking for almost a whole act. I'm glad they improved on the races and action, otherwise I would have hated this movie. God Bless you, John Singleton."]
   },
   {
     "image": "images/xXx.jpg",
@@ -423,12 +423,12 @@
     "type": "Movie",
     "genres": ["Action", "Adventure"],
     "onMyList": false,
-    "rating": "N/A",
-    "year": 1000,
-    "synopsis": "SYNOPSIS HERE",
-    "reviewers": ["NAME1 HERE", "NAME2 HERE"],
-    "reviews": ["REVIEW ONE HERE",
-    "REVIEW TWO HERE"]
+    "rating": "PG-13",
+    "year": 2017,
+    "synopsis": "Extreme athlete turned government operative Xander Cage (Vin Diesel) comes out of self-imposed exile, thought to be long dead, and is set on a collision course with deadly alpha warrior Xiang (Donnie Yen) and his team in a race to recover a sinister and seemingly unstoppable weapon known as Pandora's Box. Recruiting an all-new group of thrill-seeking cohorts, Xander finds himself enmeshed in a deadly conspiracy that points to collusion at the highest levels of world governments.",
+    "reviewers": ["Kopimocha", "Sauradeep Paul"],
+    "reviews": ["With foreign investments, it did not indicate that the production house had to add in so many unnecessary foreign elements into the movie. Is it even necessary to start off the story in a Chinese restaurant? Where was the link? Foreign elements should be added if they were needed to tell the story and not simply just to please the foreign investors. They only make the story weaker. The story line of the movie was ridiculously unbelievable, and the screenplay was absolutely disappointing. The lines were so pale and redundant. It lacked what a big blockbuster movie should have. No explanation was given for many scenes, and it became very puzzling and exaggerating. This was not a small budget movie, but it turned out to be one brainless movie.",
+    "This movie was awful and a massive waste of time. Physics is apparently non existent. The NSA guards are worse than storm-troopers at shooting. A huge cast but no character development at all and you get no idea of their names as well. The plot makes no sense at all. The acting is all over the place as well. Flying planes, flying cars, flying people and even a goddamn flying boat. Then there are people who definitely should have been killed but still they stay alive and then there are people who died and I don't know how. Overall, one word that perfectly describes this movie is 'pretentious'. It tries to define what's cool and what's not but fails miserably. I wanted to write a sarcastic post about this one, but this stupid movie doesn't deserve that. I hope everyone sues the crap out of the producers for creating such a godawful movie."]
   },
   {
     "image": "images/blackpanther.jpg",
