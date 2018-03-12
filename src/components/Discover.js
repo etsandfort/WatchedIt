@@ -22,9 +22,9 @@ class Discover extends Component {
         <div className="flex-container">
           <div className="discover-content">
             <div className="Discover-Tab">
+			  <div className={"Discover-Tab-Option" + (this.state.category === "Genres" ? " Discover-Tab-Hover" : "")} onClick={this.loadCategoryPage.bind(this,"Genres")}>Genres</div>
               <div className={"Discover-Tab-Option" + (this.state.category === "Trending" ? " Discover-Tab-Hover" : "")} onClick={this.props.handler.bind(this, {currentPage: "myList", mediaFilter: ""})} onClick={this.loadCategoryPage.bind(this,"Trending")}>Trending</div>
               <div className={"Discover-Tab-Option" + (this.state.category === "NewReleases" ? " Discover-Tab-Hover" : "")} onClick={this.loadCategoryPage.bind(this,"NewReleases")}>New Releases</div>
-              <div className={"Discover-Tab-Option" + (this.state.category === "Genres" ? " Discover-Tab-Hover" : "")} onClick={this.loadCategoryPage.bind(this,"Genres")}>Genres</div>
               <div className={"Discover-Tab-Option" + (this.state.category === "searchPage" ? " Discover-Tab-Hover" : "")} onClick={this.props.handler.bind(this, {currentPage: 'searchPage'})}>Search</div>
             </div>
             <hr/>
